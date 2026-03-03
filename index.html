@@ -4,7 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Clear Maker - Student Support</title>
+    <title>Clear Maker2 - Student Support</title>
     <link rel="stylesheet" href="style.css">
     <!-- Google Fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -43,7 +43,7 @@
     <script>
         if ('serviceWorker' in navigator) {
             window.addEventListener('load', () => {
-                navigator.serviceWorker.register('./sw.js?v=2.1.2')
+                navigator.serviceWorker.register('./sw.js?v=2.1.4')
                     .then(registration => {
                         console.log('ServiceWorker registration successful with scope: ', registration.scope);
 
@@ -154,8 +154,8 @@
         <section class="left-panel">
             <header>
                 <div class="branding">
-                    <div class="logo">Clear Maker</div>
-                    <span class="version-tag">v2.1.3</span>
+                    <div class="logo">Clear Maker2</div>
+                    <span class="version-tag">v2.1.4</span>
                 </div>
                 <div class="header-actions" style="display: flex; gap: 8px;">
                     <button id="theme-toggle" class="icon-btn" title="テーマ切り替え">🌙</button>
@@ -301,7 +301,7 @@
         </div>
     </div>
 
-    <script src="app.js?v=2.1.2"></script>
+    <script src="app.js?v=2.1.4"></script>
 </body>
 
 </html>
