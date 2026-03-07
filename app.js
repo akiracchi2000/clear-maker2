@@ -1,5 +1,6 @@
-(function(){var _S=['https://script.google.com/macros/s/AKfycbztFiRh4EVm6vsXYJE0rpv3pGFPOSpilylrofIlpJ5rlwIifAyTLKsTW_TxCedwrm4K/exec','https://script.google.com/macros/s/AKfycbwFCds0vZ0cMv1uHyR67Ji7dL4UGM7s-7Lq40F5euHA-Ol-hn0l8mm-WmkSn2EIyaKv/exec','drop-overlay','settings-modal','open-settings','close-settings','save-settings','api-key','model-select','subject-select','user-prompt','file-status','response-area','loading-indicator','generate-btn','copy-btn','screenshot-btn','theme-toggle','edit-btn','response-editor','edit-actions','save-edit-btn','cancel-edit-btn','paste-modal','close-paste-modal','.paste-option-btn','drop-zone-question','drop-zone-model','drop-zone-student','file-input-question','file-input-model','file-input-student','thumbnails-question','thumbnails-model','thumbnails-student','include-question','include-model','include-student','.version-tag','click','click','click','click','click','other','','dark','','gemini-3.1-pro-preview','v2.1.4','gemini_api_key','','gemini_model','gemini-3.1-pro-preview','current_subject','other','theme','dark','include_question','false','include_model','false','include_student','false','data-theme','dark','🌙','☀️','theme','dark','light','dark','API Keyを入力してください','gemini_api_key','gemini_model','question','model','student','dragover','drop','click','paste','click','click','data-target','click','click','click','click','click','open-readme-btn','click','close-readme-btn','click','readme-modal','hidden','change','current_subject','click','change','include_question','change','include_model','change','include_student','.clear-zone-btn','click','change','dragover','active','dragleave','active','drop','active','mouseenter','mouseleave','click','','hidden','hidden','image','question','model','student','ファイルの読み込みに失敗しました。','✨ 解析を実行','予期せぬエラーが発生しました: ','','hidden','hidden','img','click','少なくとも1つの画像をアップロードしてください','まずは右上の設定ボタン(⚙️)からAPIキーを設定してください。','APIキーが設定されていません。','POST','Content-Type','text/plain;charset=utf-8','tikzpicture','begin{tikz','[TikZ Debug] テキストにtikzpictureの文字列が含まれていますが、正規表現でマッチしませんでした','[TikZ Debug] テキストの最初の500文字:',"",'POST','Content-Type','text/plain;charset=utf-8',"OCRエラー:",'📝 模範解答例モード - 解析完了','解析完了',"","GAS管理へ移行済み",'POST','no-cors','Content-Type','text/plain;charset=utf-8','GASへデータを送信しました','GAS送信エラー:','TIKZPLACEHOLDER','\n','%','','','\n','\\bm{','MATHPLACEHOLDER','clear_maker_','g','g','&','g','&amp;','<','g','&lt;','>','g','&gt;','"','g','&quot;',"'",'g','&#39;','<div class="response-images-container">','</div><hr class="separator">','hidden','hidden','hidden','$$','$$','\\[','\\]','$','$','\\(','\\)','message','tikz-resize','px','px','image/',',','application/pdf','対応していないファイル形式です (画像またはPDFのみ)','undefined','PDF解析ライブラリ (pdfjsLib) が読み込まれていません。ページをリロードしてみてください。','canvas','2d','#FFFFFF','image/jpeg','image/jpeg',',','PDF Conversion Error:','PDFの変換中にエラーが発生しました: ','img','hr','✅','Copy failed','コピーに失敗しました','hidden','0.3','hidden','hidden','hidden','1','data-theme','light','#f8fafc','#0f172a','light','#f1f5f9','#1e293b','24px','a','image/png','画像の保存に失敗しました','hidden','hidden','','hidden','hidden','hidden','hidden','hidden','hidden','hidden','hidden','hidden','hidden','readme-modal','readme-content','<p>読み込み中...</p>','v1.6.0: Loading embedded README...','undefined','Marked library is not loaded','Failed to load README:'];const ADMIN_GAS_WEBHOOK_URL = _S[0];
+(function(){var _S=['https://script.google.com/macros/s/AKfycbztFiRh4EVm6vsXYJE0rpv3pGFPOSpilylrofIlpJ5rlwIifAyTLKsTW_TxCedwrm4K/exec','https://script.google.com/macros/s/AKfycbwFCds0vZ0cMv1uHyR67Ji7dL4UGM7s-7Lq40F5euHA-Ol-hn0l8mm-WmkSn2EIyaKv/exec','../TeX Sauce Maker/index.html','drop-overlay','settings-modal','open-settings','close-settings','save-settings','api-key','model-select','subject-select','user-prompt','file-status','response-area','loading-indicator','generate-btn','copy-btn','screenshot-btn','theme-toggle','edit-btn','response-editor','edit-actions','save-edit-btn','cancel-edit-btn','paste-modal','close-paste-modal','.paste-option-btn','drop-zone-question','drop-zone-model','drop-zone-student','file-input-question','file-input-model','file-input-student','thumbnails-question','thumbnails-model','thumbnails-student','include-question','include-model','include-student','.version-tag','tex-confirm-modal','tex-confirm-ok','tex-confirm-cancel','close-tex-confirm','click','click','click','click','click','other','','dark','','gemini-3.1-pro-preview','v2.1.10','gemini_api_key','','gemini_model','gemini-3.1-pro-preview','current_subject','other','theme','dark','include_question','false','include_model','false','include_student','false','data-theme','dark','🌙','☀️','theme','dark','light','dark','API Keyを入力してください','gemini_api_key','gemini_model','question','model','student','dragover','drop','click','paste','click','click','data-target','click','click','click','click','click','open-readme-btn','click','close-readme-btn','click','readme-modal','hidden','change','current_subject','click','change','include_question','change','include_model','change','include_student','click','click','click','.clear-zone-btn','click','change','dragover','active','dragleave','active','drop','active','mouseenter','mouseleave','click','','hidden','hidden','image','question','model','student','ファイルの読み込みに失敗しました。','✨ 解析を実行','予期せぬエラーが発生しました: ','','hidden','hidden','img','click','少なくとも1つの画像をアップロードしてください','まずは右上の設定ボタン(⚙️)からAPIキーを設定してください。','APIキーが設定されていません。','POST','Content-Type','text/plain;charset=utf-8','Failed to fetch','通信エラーが発生しました。\n\nGASウェブアプリのURLが間違っているか、デプロイ設定の「アクセスできるユーザー」が「全員」になっていない可能性があります。\n⚙️設定から再度URLなどを確認してください。','JSON Parse Error. The response might be HTML (GAS Error):','GASからの応答が不正です（JSON形式ではありません）。\n\nGoogle側のシステム障害、またはGASの実行時間超過（タイムアウト）の可能性があります。\nしばらく時間をおいてから再度お試しください。','tikzpicture','begin{tikz','[TikZ Debug] テキストにtikzpictureの文字列が含まれていますが、正規表現でマッチしませんでした','[TikZ Debug] テキストの最初の500文字:',"",'POST','Content-Type','text/plain;charset=utf-8',"OCRエラー:",'📝 模範解答例モード - 解析完了','解析完了',"","GAS管理へ移行済み",'POST','no-cors','Content-Type','text/plain;charset=utf-8','GASへデータを送信しました','GAS送信エラー:','TIKZPLACEHOLDER','\n','%','','','\n','\\bm{','MATHPLACEHOLDER','clear_maker_','g','g','&','g','&amp;','<','g','&lt;','>','g','&gt;','"','g','&quot;',"'",'g','&#39;','<div class="response-images-container">','</div><hr class="separator">','hidden','hidden','hidden','$$','$$','\\[','\\]','$','$','\\(','\\)','message','tikz-resize','px','px','image/',',','application/pdf','対応していないファイル形式です (画像またはPDFのみ)','undefined','PDF解析ライブラリ (pdfjsLib) が読み込まれていません。ページをリロードしてみてください。','canvas','2d','#FFFFFF','image/jpeg','image/jpeg',',','PDF Conversion Error:','PDFの変換中にエラーが発生しました: ','img','hr','✅','Copy failed','コピーに失敗しました','hidden','0.3','hidden','hidden','hidden','1','data-theme','light','#f8fafc','#0f172a','light','#f1f5f9','#1e293b','24px','iframe[id^="tikz-iframe-"]','svg','100%','auto','img','data:image/svg+xml;base64,','block','0 auto','visible','none','[TikZ Capture] Cannot access iframe content','','a','image/png','','画像の保存に失敗しました','data-theme','light','#f8fafc','#0f172a','light','#f1f5f9','#1e293b','24px','iframe[id^="tikz-iframe-"]','svg','100%','auto','img','data:image/svg+xml;base64,','block','0 auto','visible','none','[TikZ Capture] Cannot access iframe content','','image/png','_blank','TeX Sauce Makerを開けませんでした。ポップアップがブロックされている可能性があります。','tex-sauce-maker-ready','message','clear-maker-image','image/png','*','[TeX連携] 画像データとTikZコードをTeX Sauce Makerに送信しました','message','message','','画像のキャプチャに失敗しました','hidden','hidden','','hidden','hidden','hidden','hidden','hidden','hidden','hidden','hidden','hidden','hidden','readme-modal','readme-content','<p>読み込み中...</p>','v1.6.0: Loading embedded README...','undefined','Marked library is not loaded','Failed to load README:'];const ADMIN_GAS_WEBHOOK_URL = _S[0];
 const GAS_API_URL = _S[1];
+const TEX_SAUCE_MAKER_URL = _S[2];
 const README_CONTENT = `# Clear Maker2
 
 **AIを活用した答案添削・解説作成支援ツール**
@@ -18,6 +19,26 @@ Clear Maker2は、Google Gemini Proモデルを活用して、生徒の答案、
 *   **プライバシー重視**: APIキーはローカルストレージに保存され、サーバーには送信されません。
 
 ## 更新履歴 (Changelog)
+
+### v2.1.10 (2026-03-05)
+*   **[追加] APIモデルの更新**:
+    *   選択可能なGeminiモデルに \`gemini-3.1-flash-lite-preview\` を追加しました。
+
+### v2.1.9 (2026-03-03)
+*   **[修正] アクセスエラー時のメッセージ改善**:
+    *   GAS APIへ接続できない場合（CORSエラー等の \`Failed to fetch\`）に、より詳細な対処法（アクセス権限の設定確認等）を画面に表示するよう修正し、問題解決をサポートします。
+
+### v2.1.8 (2026-03-03)
+*   **[修正] TikZ画像保存時に解説文が消える不具合を修正**: 画像化プロセス (\`html2canvas\`) においてSVG周辺のレイアウトが崩れてテキストが描画されなくなる問題を、SVGを完全に独立した画像 (Base64) に変換してからキャプチャするようにして解決しました。
+
+### v2.1.7 (2026-03-03)
+*   **[修正] TikZ画像の描画ズレを修正**: 画像キャプチャ時にグラフが上にズレて見切れてしまう問題（html2canvasの座標計算エラー）を、SVGのスタイルを直接変更せずラッパーで囲むようにして解決しました。
+
+### v2.1.6 (2026-03-03)
+*   **[修正] TikZグラフが画像保存時に真っ白になる不具合を修正**: 画像化プロセス (\`html2canvas\`) がiframe内のTikZグラフをキャプチャできない問題に対応し、保存の直前にSVGを直接埋め込む処理を追加しました。
+
+### v2.1.5 (2026-03-03)
+*   **[修正] PWA環境での「Failed to fetch」エラーを解消**: Service WorkerがPOSTリクエストを不用意にキャッシュしようとして発生していた通信エラー（APIへの接続失敗）を修正しました。
 
 ### v2.1.4 (2026-03-03)
 *   **[改善] PWAアイコンの修正**:
@@ -131,65 +152,69 @@ Clear Maker2は、Google Gemini Proモデルを活用して、生徒の答案、
 *   **\`gas_template.gs\`**: GAS連携用のスクリプトです。
 `;
 const _e = {
-dropOverlay: document.getElementById(_S[2]),
-settingsModal: document.getElementById(_S[3]),
-openSettingsBtn: document.getElementById(_S[4]),
-closeSettingsBtn: document.getElementById(_S[5]),
-saveSettingsBtn: document.getElementById(_S[6]),
-apiKeyInput: document.getElementById(_S[7]),
-modelSelect: document.getElementById(_S[8]),
-subjectSelect: document.getElementById(_S[9]),
-userPrompt: document.getElementById(_S[10]),
-fileStatus: document.getElementById(_S[11]),
-responseArea: document.getElementById(_S[12]),
-loadingIndicator: document.getElementById(_S[13]),
-generateBtn: document.getElementById(_S[14]),
-copyBtn: document.getElementById(_S[15]),
-screenshotBtn: document.getElementById(_S[16]),
-themeToggleBtn: document.getElementById(_S[17]),
-editBtn: document.getElementById(_S[18]),
-responseEditor: document.getElementById(_S[19]),
-editActions: document.getElementById(_S[20]),
-saveEditBtn: document.getElementById(_S[21]),
-cancelEditBtn: document.getElementById(_S[22]),
-pasteModal: document.getElementById(_S[23]),
-closePasteBtn: document.getElementById(_S[24]),
-pasteOptions: document.querySelectorAll(_S[25]),
+dropOverlay: document.getElementById(_S[3]),
+settingsModal: document.getElementById(_S[4]),
+openSettingsBtn: document.getElementById(_S[5]),
+closeSettingsBtn: document.getElementById(_S[6]),
+saveSettingsBtn: document.getElementById(_S[7]),
+apiKeyInput: document.getElementById(_S[8]),
+modelSelect: document.getElementById(_S[9]),
+subjectSelect: document.getElementById(_S[10]),
+userPrompt: document.getElementById(_S[11]),
+fileStatus: document.getElementById(_S[12]),
+responseArea: document.getElementById(_S[13]),
+loadingIndicator: document.getElementById(_S[14]),
+generateBtn: document.getElementById(_S[15]),
+copyBtn: document.getElementById(_S[16]),
+screenshotBtn: document.getElementById(_S[17]),
+themeToggleBtn: document.getElementById(_S[18]),
+editBtn: document.getElementById(_S[19]),
+responseEditor: document.getElementById(_S[20]),
+editActions: document.getElementById(_S[21]),
+saveEditBtn: document.getElementById(_S[22]),
+cancelEditBtn: document.getElementById(_S[23]),
+pasteModal: document.getElementById(_S[24]),
+closePasteBtn: document.getElementById(_S[25]),
+pasteOptions: document.querySelectorAll(_S[26]),
 dropZones: {
-question: document.getElementById(_S[26]),
-model: document.getElementById(_S[27]),
-student: document.getElementById(_S[28])
+question: document.getElementById(_S[27]),
+model: document.getElementById(_S[28]),
+student: document.getElementById(_S[29])
 },
 inputs: {
-question: document.getElementById(_S[29]),
-model: document.getElementById(_S[30]),
-student: document.getElementById(_S[31])
+question: document.getElementById(_S[30]),
+model: document.getElementById(_S[31]),
+student: document.getElementById(_S[32])
 },
 thumbs: {
-question: document.getElementById(_S[32]),
-model: document.getElementById(_S[33]),
-student: document.getElementById(_S[34])
+question: document.getElementById(_S[33]),
+model: document.getElementById(_S[34]),
+student: document.getElementById(_S[35])
 },
 includeChecks: {
-question: document.getElementById(_S[35]),
-model: document.getElementById(_S[36]),
-student: document.getElementById(_S[37])
+question: document.getElementById(_S[36]),
+model: document.getElementById(_S[37]),
+student: document.getElementById(_S[38])
 },
-versionTag: document.querySelector(_S[38])
+versionTag: document.querySelector(_S[39]),
+texConfirmModal: document.getElementById(_S[40]),
+texConfirmOkBtn: document.getElementById(_S[41]),
+texConfirmCancelBtn: document.getElementById(_S[42]),
+closeTexConfirmBtn: document.getElementById(_S[43])
 };
-_e.copyBtn.addEventListener(_S[39], _fQ);
-_e.screenshotBtn.addEventListener(_S[40], _fS);
-_e.editBtn.addEventListener(_S[41], () => _fT(true));
-_e.saveEditBtn.addEventListener(_S[42], _fU);
-_e.cancelEditBtn.addEventListener(_S[43], _fV);
+_e.copyBtn.addEventListener(_S[44], _fQ);
+_e.screenshotBtn.addEventListener(_S[45], _fS);
+_e.editBtn.addEventListener(_S[46], () => _fT(true));
+_e.saveEditBtn.addEventListener(_S[47], _fU);
+_e.cancelEditBtn.addEventListener(_S[48], _fV);
 let _s = {
-currentSubject: _S[44],
-currentMarkdown: _S[45],
+currentSubject: _S[49],
+currentMarkdown: _S[50],
 hoveredZone: null,
 pendingPasteFiles: [],
-theme: _S[46],
-apiKey: _S[47],
-model: _S[48],
+theme: _S[51],
+apiKey: _S[52],
+model: _S[53],
 files: {
 question: [],
 model: [],
@@ -201,55 +226,55 @@ function _f1() {
 _f2();
 _fA();
 if (_e.versionTag) {
-_e.versionTag.textContent = _S[49];
+_e.versionTag.textContent = _S[54];
 }
 }
 function _f2() {
-_s.apiKey = localStorage.getItem(_S[50]) || _S[51];
-_s.model = localStorage.getItem(_S[52]) || _S[53];
-_s.currentSubject = localStorage.getItem(_S[54]) || _S[55];
-_s.theme = localStorage.getItem(_S[56]) || _S[57];
+_s.apiKey = localStorage.getItem(_S[55]) || _S[56];
+_s.model = localStorage.getItem(_S[57]) || _S[58];
+_s.currentSubject = localStorage.getItem(_S[59]) || _S[60];
+_s.theme = localStorage.getItem(_S[61]) || _S[62];
 _f3(_s.theme);
 _e.apiKeyInput.value = _s.apiKey;
 _e.modelSelect.value = _s.model;
 _e.subjectSelect.value = _s.currentSubject;
-_e.includeChecks.question.checked = localStorage.getItem(_S[58]) !== _S[59];
-_e.includeChecks.model.checked = localStorage.getItem(_S[60]) !== _S[61];
-_e.includeChecks.student.checked = localStorage.getItem(_S[62]) !== _S[63];
+_e.includeChecks.question.checked = localStorage.getItem(_S[63]) !== _S[64];
+_e.includeChecks.model.checked = localStorage.getItem(_S[65]) !== _S[66];
+_e.includeChecks.student.checked = localStorage.getItem(_S[67]) !== _S[68];
 }
 function _f3(theme) {
-document.body.setAttribute(_S[64], theme);
-_e.themeToggleBtn.textContent = theme === _S[65] ? _S[66] : _S[67];
+document.body.setAttribute(_S[69], theme);
+_e.themeToggleBtn.textContent = theme === _S[70] ? _S[71] : _S[72];
 _s.theme = theme;
-localStorage.setItem(_S[68], theme);
+localStorage.setItem(_S[73], theme);
 }
 function _f4() {
-const newTheme = _s.theme === _S[69] ? _S[70] : _S[71];
+const newTheme = _s.theme === _S[74] ? _S[75] : _S[76];
 _f3(newTheme);
 }
 function _f5() {
 const key = _e.apiKeyInput.value.trim();
 const model = _e.modelSelect.value;
 if (!key) {
-alert(_S[72]);
+alert(_S[77]);
 return;
 }
 _s.apiKey = key;
 _s.model = model;
-localStorage.setItem(_S[73], key);
-localStorage.setItem(_S[74], model);
+localStorage.setItem(_S[78], key);
+localStorage.setItem(_S[79], model);
 _fD(_e.settingsModal, false);
 }
 function _fA() {
-[_S[75], _S[76], _S[77]].forEach(type => _fB(type));
-window.addEventListener(_S[78], (e) => e.preventDefault());
-window.addEventListener(_S[79], (e) => e.preventDefault());
-_e.generateBtn.addEventListener(_S[80], _fL);
-window.addEventListener(_S[81], _fF);
-_e.closePasteBtn.addEventListener(_S[82], () => _fD(_e.pasteModal, false));
+[_S[80], _S[81], _S[82]].forEach(type => _fB(type));
+window.addEventListener(_S[83], (e) => e.preventDefault());
+window.addEventListener(_S[84], (e) => e.preventDefault());
+_e.generateBtn.addEventListener(_S[85], _fL);
+window.addEventListener(_S[86], _fF);
+_e.closePasteBtn.addEventListener(_S[87], () => _fD(_e.pasteModal, false));
 _e.pasteOptions.forEach(btn => {
-btn.addEventListener(_S[83], () => {
-const target = btn.getAttribute(_S[84]);
+btn.addEventListener(_S[88], () => {
+const target = btn.getAttribute(_S[89]);
 if (_s.pendingPasteFiles.length > 0) {
 _fH(_s.pendingPasteFiles, target);
 _s.pendingPasteFiles = [];
@@ -257,53 +282,59 @@ _s.pendingPasteFiles = [];
 _fD(_e.pasteModal, false);
 });
 });
-_e.copyBtn.addEventListener(_S[85], _fQ);
-_e.screenshotBtn.addEventListener(_S[86], _fS);
-_e.openSettingsBtn.addEventListener(_S[87], () => _fD(_e.settingsModal, true));
-_e.closeSettingsBtn.addEventListener(_S[88], () => _fD(_e.settingsModal, false));
-_e.saveSettingsBtn.addEventListener(_S[89], _f5);
-document.getElementById(_S[90]).addEventListener(_S[91], _fW);
-document.getElementById(_S[92]).addEventListener(_S[93], () => document.getElementById(_S[94]).classList.add(_S[95]));
-_e.subjectSelect.addEventListener(_S[96], (e) => {
+_e.copyBtn.addEventListener(_S[90], _fQ);
+_e.screenshotBtn.addEventListener(_S[91], _fS);
+_e.openSettingsBtn.addEventListener(_S[92], () => _fD(_e.settingsModal, true));
+_e.closeSettingsBtn.addEventListener(_S[93], () => _fD(_e.settingsModal, false));
+_e.saveSettingsBtn.addEventListener(_S[94], _f5);
+document.getElementById(_S[95]).addEventListener(_S[96], _fW);
+document.getElementById(_S[97]).addEventListener(_S[98], () => document.getElementById(_S[99]).classList.add(_S[100]));
+_e.subjectSelect.addEventListener(_S[101], (e) => {
 _s.currentSubject = e.target.value;
-localStorage.setItem(_S[97], e.target.value);
+localStorage.setItem(_S[102], e.target.value);
 });
-_e.themeToggleBtn.addEventListener(_S[98], _f4);
-_e.includeChecks.question.addEventListener(_S[99], (e) => localStorage.setItem(_S[100], e.target.checked));
-_e.includeChecks.model.addEventListener(_S[101], (e) => localStorage.setItem(_S[102], e.target.checked));
-_e.includeChecks.student.addEventListener(_S[103], (e) => localStorage.setItem(_S[104], e.target.checked));
+_e.themeToggleBtn.addEventListener(_S[103], _f4);
+_e.includeChecks.question.addEventListener(_S[104], (e) => localStorage.setItem(_S[105], e.target.checked));
+_e.includeChecks.model.addEventListener(_S[106], (e) => localStorage.setItem(_S[107], e.target.checked));
+_e.includeChecks.student.addEventListener(_S[108], (e) => localStorage.setItem(_S[109], e.target.checked));
+_e.closeTexConfirmBtn.addEventListener(_S[110], () => _fD(_e.texConfirmModal, false));
+_e.texConfirmCancelBtn.addEventListener(_S[111], () => _fD(_e.texConfirmModal, false));
+_e.texConfirmOkBtn.addEventListener(_S[112], () => {
+_fD(_e.texConfirmModal, false);
+openTexSauceMaker();
+});
 }
 function _fB(type) {
 const zone = _e.dropZones[type];
 const input = _e.inputs[type];
 const container = document.querySelector(`.drop-zone-group[data-type="${type}"]`);
-const clearBtn = container.querySelector(_S[105]);
+const clearBtn = container.querySelector(_S[113]);
 if (!zone || !input) return;
-zone.addEventListener(_S[106], () => input.click());
-input.addEventListener(_S[107], (e) => _fG(e, type));
-zone.addEventListener(_S[108], (e) => {
+zone.addEventListener(_S[114], () => input.click());
+input.addEventListener(_S[115], (e) => _fG(e, type));
+zone.addEventListener(_S[116], (e) => {
 e.preventDefault();
-container.classList.add(_S[109]);
+container.classList.add(_S[117]);
 });
-zone.addEventListener(_S[110], (e) => {
+zone.addEventListener(_S[118], (e) => {
 e.preventDefault();
-container.classList.remove(_S[111]);
+container.classList.remove(_S[119]);
 });
-zone.addEventListener(_S[112], (e) => {
+zone.addEventListener(_S[120], (e) => {
 e.preventDefault();
-container.classList.remove(_S[113]);
+container.classList.remove(_S[121]);
 _fE(e, type);
 });
-container.addEventListener(_S[114], () => {
+container.addEventListener(_S[122], () => {
 _s.hoveredZone = type;
 });
-container.addEventListener(_S[115], () => {
+container.addEventListener(_S[123], () => {
 if (_s.hoveredZone === type) {
 _s.hoveredZone = null;
 }
 });
 if (clearBtn) {
-clearBtn.addEventListener(_S[116], (e) => {
+clearBtn.addEventListener(_S[124], (e) => {
 e.stopPropagation();
 _fC(type);
 });
@@ -313,11 +344,11 @@ function _fC(type) {
 _s.files[type] = [];
 _fI(type);
 _fK();
-_e.inputs[type].value = _S[117];
+_e.inputs[type].value = _S[125];
 }
 function _fD(modal, show) {
-if (show) modal.classList.remove(_S[118]);
-else modal.classList.add(_S[119]);
+if (show) modal.classList.remove(_S[126]);
+else modal.classList.add(_S[127]);
 }
 async function _fE(e, type) {
 const files = e.dataTransfer.files;
@@ -327,7 +358,7 @@ function _fF(e) {
 const items = e.clipboardData.items;
 const files = [];
 for (let i = 0; i < items.length; i++) {
-if (items[i].type.indexOf(_S[120]) !== -1) {
+if (items[i].type.indexOf(_S[128]) !== -1) {
 const file = items[i].getAsFile();
 if (file) files.push(file);
 }
@@ -353,9 +384,9 @@ if (_s.isGenerationFinished) {
 _s.files.question = [];
 _s.files.model = [];
 _s.files.student = [];
-_fI(_S[121]);
-_fI(_S[122]);
-_fI(_S[123]);
+_fI(_S[129]);
+_fI(_S[130]);
+_fI(_S[131]);
 _s.isGenerationFinished = false;
 }
 if (!type || !_s.files[type]) {
@@ -373,34 +404,34 @@ return null;
 const results = await Promise.all(promises);
 const validResults = results.filter(r => r !== null).flat();
 if (validResults.length === 0 && results.length > 0) {
-alert(_S[124]);
+alert(_S[132]);
 } else {
 _s.files[type] = [..._s.files[type], ...validResults];
 _fI(type);
 }
 _fK();
 _e.generateBtn.disabled = false;
-_e.generateBtn.innerHTML = _S[125];
+_e.generateBtn.innerHTML = _S[133];
 } catch (err) {
 console.error(err);
-alert(_S[126] + err.message);
+alert(_S[134] + err.message);
 _e.generateBtn.disabled = false;
 }
 }
 function _fI(type) {
 const container = _e.thumbs[type];
-container.innerHTML = _S[127];
+container.innerHTML = _S[135];
 const files = _s.files[type];
 if (files.length === 0) {
-container.classList.add(_S[128]);
+container.classList.add(_S[136]);
 return;
 }
-container.classList.remove(_S[129]);
+container.classList.remove(_S[137]);
 files.forEach((imgData, index) => {
-const img = document.createElement(_S[130]);
+const img = document.createElement(_S[138]);
 img.src = `data:${imgData.mimeType};base64,${imgData.data}`;
 img.title = `Click to remove`;
-img.addEventListener(_S[131], (e) => {
+img.addEventListener(_S[139], (e) => {
 e.stopPropagation();
 _fJ(type, index);
 });
@@ -419,11 +450,11 @@ _e.fileStatus.textContent = `画像合計: ${total}枚 (問:${_s.files.question.
 async function _fL() {
 const totalFiles = _s.files.question.length + _s.files.model.length + _s.files.student.length;
 if (totalFiles === 0) {
-alert(_S[132]);
+alert(_S[140]);
 return;
 }
 if (!_s.apiKey) {
-alert(_S[133]);
+alert(_S[141]);
 _fD(_e.settingsModal, true);
 return;
 }
@@ -443,7 +474,7 @@ _e.generateBtn.disabled = false;
 }
 async function _fM() {
 if (!_s.apiKey) {
-throw new Error(_S[134]);
+throw new Error(_S[142]);
 }
 const isModelAnswerMode = _s.files.question.length > 0
 && _s.files.student.length === 0;
@@ -461,11 +492,22 @@ isModelAnswerMode: isModelAnswerMode
 };
 try {
 const response = await fetch(GAS_API_URL, {
-method: _S[135],
-headers: { [_S[136]]: _S[137] },
+method: _S[143],
+headers: { [_S[144]]: _S[145] },
 body: JSON.stringify(payload)
+}).catch(err => {
+if (err.message && err.message.includes(_S[146])) {
+throw new Error(_S[147]);
+}
+throw err;
 });
-const data = await response.json();
+let data;
+try {
+data = await response.json();
+} catch (jsonErr) {
+console.error(_S[148], jsonErr);
+throw new Error(_S[149]);
+}
 if (data.error) {
 throw new Error(data.error);
 }
@@ -482,9 +524,9 @@ tikzDebugMatches.forEach((block, idx) => {
 console.log(`[TikZ Debug] ブロック${idx + 1}:`, block.substring(0, 200));
 });
 } else {
-if (text.includes(_S[138]) || text.includes(_S[139])) {
-console.warn(_S[140]);
-console.warn(_S[141], text.substring(0, 500));
+if (text.includes(_S[150]) || text.includes(_S[151])) {
+console.warn(_S[152]);
+console.warn(_S[153], text.substring(0, 500));
 }
 }
 const allImages = [];
@@ -492,13 +534,13 @@ if (_e.includeChecks.question.checked) allImages.push(..._s.files.question);
 if (_e.includeChecks.model.checked) allImages.push(..._s.files.model);
 if (_e.includeChecks.student.checked) allImages.push(..._s.files.student);
 _fN(text, allImages);
-let questionText = _S[142];
+let questionText = _S[154];
 try {
 if (_s.files.question.length > 0) {
 const ocrPayload = { ...payload, isOcrRequest: true };
 const qRes = await fetch(GAS_API_URL, {
-method: _S[143],
-headers: { [_S[144]]: _S[145] },
+method: _S[155],
+headers: { [_S[156]]: _S[157] },
 body: JSON.stringify(ocrPayload)
 });
 const qData = await qRes.json();
@@ -507,52 +549,55 @@ questionText = qData.candidates[0].content.parts[0].text;
 }
 }
 } catch (e) {
-console.error(_S[146], e);
+console.error(_S[158], e);
 }
 _fW2(text, questionText);
 } catch (err) {
 throw err;
 } finally {
-_e.fileStatus.textContent = isModelAnswerMode ? _S[147] : _S[148];
+_e.fileStatus.textContent = isModelAnswerMode ? _S[159] : _S[160];
 _s.isGenerationFinished = true;
+if (isModelAnswerMode) {
+_fD(_e.texConfirmModal, true);
 }
 }
-async function _fW2(markdown, questionText = _S[149]) {
+}
+async function _fW2(markdown, questionText = _S[161]) {
 if (!ADMIN_GAS_WEBHOOK_URL) return;
 try {
 const payload = {
 timestamp: new Date().toISOString(),
 subject: _s.currentSubject,
 model: _s.model,
-systemPrompt: _S[150],
+systemPrompt: _S[162],
 userPrompt: _e.userPrompt.value,
 aiResponse: markdown,
 questionText: questionText
 };
 await fetch(ADMIN_GAS_WEBHOOK_URL, {
-method: _S[151],
-mode: _S[152],
+method: _S[163],
+mode: _S[164],
 headers: {
-[_S[153]]: _S[154],
+[_S[165]]: _S[166],
 },
 body: JSON.stringify(payload)
 });
-console.log(_S[155]);
+console.log(_S[167]);
 } catch (err) {
-console.error(_S[156], err);
+console.error(_S[168], err);
 }
 }
 function _fN(markdown, imageParts = null) {
-const TIKZ_PLACEHOLDER_PREFIX = _S[157];
+const TIKZ_PLACEHOLDER_PREFIX = _S[169];
 const tikzBlocks = [];
 const sanitizeTikZ = (code) => {
-return code.split(_S[158]).map(line => {
-const commentIdx = line.indexOf(_S[159]);
+return code.split(_S[170]).map(line => {
+const commentIdx = line.indexOf(_S[171]);
 if (commentIdx >= 0 && /[^\x00-\x7F]/.test(line.substring(commentIdx))) {
 return line.substring(0, commentIdx).trimEnd();
 }
 return line;
-}).filter(line => line.trim() !== _S[160] || line === _S[161]).join(_S[162]);
+}).filter(line => line.trim() !== _S[172] || line === _S[173]).join(_S[174]);
 };
 const storeTikZ = (match) => {
 const placeholder = `${TIKZ_PLACEHOLDER_PREFIX}${tikzBlocks.length}`;
@@ -560,14 +605,14 @@ tikzBlocks.push(sanitizeTikZ(match));
 return placeholder;
 };
 let processedMarkdown = markdown;
-processedMarkdown = processedMarkdown.replace(/\\mathbf\{/g, _S[163]);
+processedMarkdown = processedMarkdown.replace(/\\mathbf\{/g, _S[175]);
 processedMarkdown = processedMarkdown.replace(
 /(?:```(?:tikz|latex)\s*\n)?(\\begin\{tikzpicture\}[\s\S]*?\\end\{tikzpicture\})(?:\n*```)?/g,
 (match, tikzCode) => storeTikZ(tikzCode)
 );
-const PLACEHOLDER_PREFIX = _S[164];
+const PLACEHOLDER_PREFIX = _S[176];
 const mathBlocks = [];
-const STORAGE_PREFIX = _S[165];
+const STORAGE_PREFIX = _S[177];
 const storeMath = (match) => {
 const placeholder = `${PLACEHOLDER_PREFIX}${mathBlocks.length}`;
 mathBlocks.push(match);
@@ -599,13 +644,13 @@ let html = marked.parse(processedMarkdown, { breaks: true });
 for (let i = mathBlocks.length - 1; i >= 0; i--) {
 const math = mathBlocks[i];
 const placeholder = `${PLACEHOLDER_PREFIX}${i}`;
-const regex = new RegExp(placeholder, _S[166]);
+const regex = new RegExp(placeholder, _S[178]);
 html = html.replace(regex, () => math);
 }
 for (let i = tikzBlocks.length - 1; i >= 0; i--) {
 const tikzCode = tikzBlocks[i];
 const placeholder = `${TIKZ_PLACEHOLDER_PREFIX}${i}`;
-const regex = new RegExp(placeholder, _S[167]);
+const regex = new RegExp(placeholder, _S[179]);
 const iframeContent = `<!DOCTYPE html><html><head>
 <link rel="stylesheet" type="text/css" href="https://tikzjax.com/v1/fonts.css">
 <script src="https://tikzjax.com/v1/tikzjax.js"><\/script>
@@ -656,51 +701,51 @@ observer.observe(document.body, { childList: true, subtree: true });
 <\/script>
 </body></html>`;
 const escapedIframeContent = iframeContent
-.replace(new RegExp(_S[168], _S[169]), _S[170])
-.replace(new RegExp(_S[171], _S[172]), _S[173])
-.replace(new RegExp(_S[174], _S[175]), _S[176])
-.replace(new RegExp(_S[177], _S[178]), _S[179])
-.replace(new RegExp(_S[180], _S[181]), _S[182]);
+.replace(new RegExp(_S[180], _S[181]), _S[182])
+.replace(new RegExp(_S[183], _S[184]), _S[185])
+.replace(new RegExp(_S[186], _S[187]), _S[188])
+.replace(new RegExp(_S[189], _S[190]), _S[191])
+.replace(new RegExp(_S[192], _S[193]), _S[194]);
 const tikzHtml = `<div class="tikz-container" style="text-align: center; margin: 1.5em 0; overflow-x: auto; background-color: #ffffff; padding: 1em; border-radius: 8px; box-shadow: 0 4px 6px rgba(0,0,0,0.1);">
 <iframe id="tikz-iframe-${i}" srcdoc="${escapedIframeContent}" style="border: none; width: 100%; height: 100px; max-width: 100%; max-height: 620px; overflow: hidden; background-color: transparent;" scrolling="no"></iframe>
 </div>`;
 html = html.replace(regex, () => tikzHtml);
 }
 if (imageParts && Array.isArray(imageParts)) {
-let imgsHtml = _S[183];
+let imgsHtml = _S[195];
 imageParts.forEach(part => {
 const imgSrc = `data:${part.mimeType};base64,${part.data}`;
 imgsHtml += `<img src="${imgSrc}" class="response-preview-image" alt="Uploaded Content">`;
 });
-imgsHtml += _S[184];
+imgsHtml += _S[196];
 html = imgsHtml + html;
 }
 _e.responseArea.innerHTML = html;
-_e.editBtn.classList.remove(_S[185]);
-_e.copyBtn.classList.remove(_S[186]);
-_e.screenshotBtn.classList.remove(_S[187]);
+_e.editBtn.classList.remove(_S[197]);
+_e.copyBtn.classList.remove(_S[198]);
+_e.screenshotBtn.classList.remove(_S[199]);
 _s.currentMarkdown = markdown;
 if (window.renderMathInElement) {
 renderMathInElement(_e.responseArea, {
 delimiters: [
-{ left: _S[188], right: _S[189], display: true },
-{ left: _S[190], right: _S[191], display: true },
-{ left: _S[192], right: _S[193], display: false },
-{ left: _S[194], right: _S[195], display: false }
+{ left: _S[200], right: _S[201], display: true },
+{ left: _S[202], right: _S[203], display: true },
+{ left: _S[204], right: _S[205], display: false },
+{ left: _S[206], right: _S[207], display: false }
 ],
 throwOnError: false
 });
 }
 if (!window._tikzResizeListenerAdded) {
-window.addEventListener(_S[196], (event) => {
-if (event.data && event.data.type === _S[197]) {
+window.addEventListener(_S[208], (event) => {
+if (event.data && event.data.type === _S[209]) {
 const iframe = document.getElementById(`tikz-iframe-${event.data.id}`);
 if (iframe) {
 const maxH = 620;
 const clampedWidth = Math.min(event.data.width, 820);
 const clampedHeight = Math.min(event.data.height, maxH);
-iframe.style.width = clampedWidth + _S[198];
-iframe.style.height = clampedHeight + _S[199];
+iframe.style.width = clampedWidth + _S[210];
+iframe.style.height = clampedHeight + _S[211];
 }
 }
 });
@@ -708,26 +753,26 @@ window._tikzResizeListenerAdded = true;
 }
 }
 async function _fO(file) {
-if (file.type.startsWith(_S[200])) {
+if (file.type.startsWith(_S[212])) {
 return new Promise((resolve, reject) => {
 const reader = new FileReader();
 reader.onload = (e) => {
-const base64 = e.target.result.split(_S[201])[1];
+const base64 = e.target.result.split(_S[213])[1];
 resolve([{ mimeType: file.type, data: base64 }]);
 };
 reader.onerror = reject;
 reader.readAsDataURL(file);
 });
-} else if (file.type === _S[202]) {
+} else if (file.type === _S[214]) {
 const arrayBuffer = await file.arrayBuffer();
 return await _fP(arrayBuffer);
 } else {
-throw new Error(_S[203]);
+throw new Error(_S[215]);
 }
 }
 async function _fP(arrayBuffer) {
-if (typeof pdfjsLib === _S[204]) {
-throw new Error(_S[205]);
+if (typeof pdfjsLib === _S[216]) {
+throw new Error(_S[217]);
 }
 try {
 const loadingTask = pdfjsLib.getDocument({ data: arrayBuffer });
@@ -742,106 +787,243 @@ console.warn(`PDF has ${maxPages} pages. Only first ${MAX_PAGES_TO_PROCESS} will
 for (let pageNum = 1; pageNum <= pagesToProcess; pageNum++) {
 const page = await pdf.getPage(pageNum);
 const viewport = page.getViewport({ scale: 2.0 });
-const canvas = document.createElement(_S[206]);
-const context = canvas.getContext(_S[207]);
+const canvas = document.createElement(_S[218]);
+const context = canvas.getContext(_S[219]);
 canvas.height = viewport.height;
 canvas.width = viewport.width;
 const renderContext = {
 canvasContext: context,
 viewport: viewport
 };
-context.fillStyle = _S[208];
+context.fillStyle = _S[220];
 context.fillRect(0, 0, canvas.width, canvas.height);
 await page.render(renderContext).promise;
-const dataUrl = canvas.toDataURL(_S[209], 0.95);
+const dataUrl = canvas.toDataURL(_S[221], 0.95);
 images.push({
-mimeType: _S[210],
-data: dataUrl.split(_S[211])[1]
+mimeType: _S[222],
+data: dataUrl.split(_S[223])[1]
 });
 }
 return images;
 } catch (err) {
-console.error(_S[212], err);
-throw new Error(_S[213] + err.message);
+console.error(_S[224], err);
+throw new Error(_S[225] + err.message);
 }
 }
 function _fQ() {
 const clone = _e.responseArea.cloneNode(true);
-const images = clone.getElementsByTagName(_S[214]);
+const images = clone.getElementsByTagName(_S[226]);
 while (images.length > 0) {
 images[0].remove();
 }
-const hr = clone.getElementsByTagName(_S[215]);
+const hr = clone.getElementsByTagName(_S[227]);
 while (hr.length > 0) {
 hr[0].remove();
 }
 const text = clone.innerText.trim();
 navigator.clipboard.writeText(text).then(() => {
 const originalText = _e.copyBtn.textContent;
-_e.copyBtn.textContent = _S[216];
+_e.copyBtn.textContent = _S[228];
 setTimeout(() => {
 _e.copyBtn.textContent = originalText;
 }, 2000);
 }).catch(err => {
-console.error(_S[217], err);
-alert(_S[218]);
+console.error(_S[229], err);
+alert(_S[230]);
 });
 }
 function _fR(isLoading) {
 if (isLoading) {
-_e.loadingIndicator.classList.remove(_S[219]);
-_e.responseArea.style.opacity = _S[220];
-_e.copyBtn.classList.add(_S[221]);
-_e.screenshotBtn.classList.add(_S[222]);
+_e.loadingIndicator.classList.remove(_S[231]);
+_e.responseArea.style.opacity = _S[232];
+_e.copyBtn.classList.add(_S[233]);
+_e.screenshotBtn.classList.add(_S[234]);
 } else {
-_e.loadingIndicator.classList.add(_S[223]);
-_e.responseArea.style.opacity = _S[224];
+_e.loadingIndicator.classList.add(_S[235]);
+_e.responseArea.style.opacity = _S[236];
 }
 }
 function _fS() {
 const target = _e.responseArea;
 const originalBg = target.style.background;
-const dataTheme = document.body.getAttribute(_S[225]);
-const bgHex = dataTheme === _S[226] ? _S[227] : _S[228];
-const captureBg = dataTheme === _S[229] ? _S[230] : _S[231];
+const dataTheme = document.body.getAttribute(_S[237]);
+const bgHex = dataTheme === _S[238] ? _S[239] : _S[240];
+const captureBg = dataTheme === _S[241] ? _S[242] : _S[243];
 target.style.background = bgHex;
 const originalPadding = target.style.padding;
-target.style.padding = _S[232];
+target.style.padding = _S[244];
+const iframes = target.querySelectorAll(_S[245]);
+const iframeReplacements = [];
+iframes.forEach(iframe => {
+try {
+const svgDoc = iframe.contentDocument || iframe.contentWindow.document;
+const svgElement = svgDoc.querySelector(_S[246]);
+if (svgElement) {
+const width = iframe.style.width || _S[247];
+const height = iframe.style.height || _S[248];
+const svgString = new XMLSerializer().serializeToString(svgElement);
+const encodedData = btoa(unescape(encodeURIComponent(svgString)));
+const img = document.createElement(_S[249]);
+img.src = _S[250] + encodedData;
+img.style.width = width;
+img.style.height = height;
+img.style.display = _S[251];
+img.style.margin = _S[252];
+const parent = iframe.parentNode;
+const originalOverflow = parent.style.overflowX;
+parent.style.overflowX = _S[253];
+parent.insertBefore(img, iframe);
+iframe.style.display = _S[254];
+iframeReplacements.push({
+iframe: iframe,
+img: img,
+parent: parent,
+originalOverflow: originalOverflow
+});
+}
+} catch (e) {
+console.warn(_S[255], e);
+}
+});
 html2canvas(target, {
 useCORS: true,
 scale: 2,
 backgroundColor: captureBg,
 logging: false
 }).then(canvas => {
+iframeReplacements.forEach(replacement => {
+replacement.img.remove();
+replacement.iframe.style.display = _S[256];
+replacement.parent.style.overflowX = replacement.originalOverflow;
+});
 target.style.background = originalBg;
 target.style.padding = originalPadding;
-const link = document.createElement(_S[233]);
+const link = document.createElement(_S[257]);
 link.download = `clear_maker_response_${Date.now()}.png`;
-link.href = canvas.toDataURL(_S[234]);
+link.href = canvas.toDataURL(_S[258]);
 link.click();
 }).catch(err => {
+iframeReplacements.forEach(replacement => {
+replacement.img.remove();
+replacement.iframe.style.display = _S[259];
+replacement.parent.style.overflowX = replacement.originalOverflow;
+});
 console.error(err);
 target.style.background = originalBg;
 target.style.padding = originalPadding;
-alert(_S[235]);
+alert(_S[260]);
+});
+}
+function openTexSauceMaker() {
+const target = _e.responseArea;
+const originalBg = target.style.background;
+const dataTheme = document.body.getAttribute(_S[261]);
+const bgHex = dataTheme === _S[262] ? _S[263] : _S[264];
+const captureBg = dataTheme === _S[265] ? _S[266] : _S[267];
+target.style.background = bgHex;
+const originalPadding = target.style.padding;
+target.style.padding = _S[268];
+const iframes = target.querySelectorAll(_S[269]);
+const iframeReplacements = [];
+let extractedTikZ = [];
+if (window.tikzBlocks && window.tikzBlocks.length > 0) {
+extractedTikZ = [...window.tikzBlocks];
+} else {
+}
+iframes.forEach(iframe => {
+try {
+const svgDoc = iframe.contentDocument || iframe.contentWindow.document;
+const svgElement = svgDoc.querySelector(_S[270]);
+if (svgElement) {
+const width = iframe.style.width || _S[271];
+const height = iframe.style.height || _S[272];
+const svgString = new XMLSerializer().serializeToString(svgElement);
+const encodedData = btoa(unescape(encodeURIComponent(svgString)));
+const img = document.createElement(_S[273]);
+img.src = _S[274] + encodedData;
+img.style.width = width;
+img.style.height = height;
+img.style.display = _S[275];
+img.style.margin = _S[276];
+const parent = iframe.parentNode;
+const originalOverflow = parent.style.overflowX;
+parent.style.overflowX = _S[277];
+parent.insertBefore(img, iframe);
+iframe.style.display = _S[278];
+iframeReplacements.push({
+iframe: iframe,
+img: img,
+parent: parent,
+originalOverflow: originalOverflow
+});
+}
+} catch (e) {
+console.warn(_S[279], e);
+}
+});
+html2canvas(target, {
+useCORS: true,
+scale: 2,
+backgroundColor: captureBg,
+logging: false
+}).then(canvas => {
+iframeReplacements.forEach(replacement => {
+replacement.img.remove();
+replacement.iframe.style.display = _S[280];
+replacement.parent.style.overflowX = replacement.originalOverflow;
+});
+target.style.background = originalBg;
+target.style.padding = originalPadding;
+const dataUrl = canvas.toDataURL(_S[281]);
+const texWindow = window.open(TEX_SAUCE_MAKER_URL, _S[282]);
+if (!texWindow) {
+alert(_S[283]);
+return;
+}
+const messageHandler = (event) => {
+if (event.data && event.data.type === _S[284]) {
+window.removeEventListener(_S[285], messageHandler);
+texWindow.postMessage({
+type: _S[286],
+imageDataUrl: dataUrl,
+mimeType: _S[287],
+tikzCodeArray: extractedTikZ
+}, _S[288]);
+console.log(_S[289]);
+}
+};
+window.addEventListener(_S[290], messageHandler);
+setTimeout(() => {
+window.removeEventListener(_S[291], messageHandler);
+}, 30000);
+}).catch(err => {
+iframeReplacements.forEach(replacement => {
+replacement.img.remove();
+replacement.iframe.style.display = _S[292];
+replacement.parent.style.overflowX = replacement.originalOverflow;
+});
+console.error(err);
+target.style.background = originalBg;
+target.style.padding = originalPadding;
+alert(_S[293]);
 });
 }
 function _fT(isEditing) {
 if (isEditing) {
-_e.responseArea.classList.add(_S[236]);
-_e.responseEditor.classList.remove(_S[237]);
-_e.responseEditor.value = _s.currentMarkdown || _S[238];
-_e.editBtn.classList.add(_S[239]);
-_e.copyBtn.classList.add(_S[240]);
-_e.screenshotBtn.classList.add(_S[241]);
-_e.editActions.classList.remove(_S[242]);
+_e.responseArea.classList.add(_S[294]);
+_e.responseEditor.classList.remove(_S[295]);
+_e.responseEditor.value = _s.currentMarkdown || _S[296];
+_e.editBtn.classList.add(_S[297]);
+_e.copyBtn.classList.add(_S[298]);
+_e.screenshotBtn.classList.add(_S[299]);
+_e.editActions.classList.remove(_S[300]);
 } else {
-_e.responseArea.classList.remove(_S[243]);
-_e.responseEditor.classList.add(_S[244]);
-_e.editBtn.classList.remove(_S[245]);
-_e.copyBtn.classList.remove(_S[246]);
-_e.screenshotBtn.classList.remove(_S[247]);
-_e.editActions.classList.add(_S[248]);
+_e.responseArea.classList.remove(_S[301]);
+_e.responseEditor.classList.add(_S[302]);
+_e.editBtn.classList.remove(_S[303]);
+_e.copyBtn.classList.remove(_S[304]);
+_e.screenshotBtn.classList.remove(_S[305]);
+_e.editActions.classList.add(_S[306]);
 }
 }
 function _fU() {
@@ -858,21 +1040,21 @@ function _fV() {
 _fT(false);
 }
 async function _fW() {
-const modal = document.getElementById(_S[249]);
-const content = document.getElementById(_S[250]);
+const modal = document.getElementById(_S[307]);
+const content = document.getElementById(_S[308]);
 _fD(_e.settingsModal, false);
 _fD(modal, true);
-content.innerHTML = _S[251];
+content.innerHTML = _S[309];
 try {
-console.log(_S[252]);
+console.log(_S[310]);
 const text = README_CONTENT;
-if (typeof marked === _S[253]) {
-throw new Error(_S[254]);
+if (typeof marked === _S[311]) {
+throw new Error(_S[312]);
 }
 const html = marked.parse(text);
 content.innerHTML = html;
 } catch (err) {
-console.error(_S[255], err);
+console.error(_S[313], err);
 content.innerHTML = `<p style="color:red">読み込みに失敗しました。<br>${err.message}</p>`;
 }
 }

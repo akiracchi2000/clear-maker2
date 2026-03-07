@@ -43,7 +43,7 @@
     <script>
         if ('serviceWorker' in navigator) {
             window.addEventListener('load', () => {
-                navigator.serviceWorker.register('./sw.js?v=2.1.4')
+                navigator.serviceWorker.register('./sw.js?v=2.1.10')
                     .then(registration => {
                         console.log('ServiceWorker registration successful with scope: ', registration.scope);
 
@@ -115,6 +115,7 @@
                             <option value="gemini-3.1-pro-preview">gemini-3.1-pro-preview</option>
                             <option value="gemini-3-pro-preview">gemini-3-pro-preview</option>
                             <option value="gemini-3-flash-preview">gemini-3-flash-preview</option>
+                            <option value="gemini-3.1-flash-lite-preview">gemini-3.1-flash-lite-preview</option>
                             <option value="gemini-2.5-pro">gemini-2.5-pro</option>
                             <option value="gemini-2.5-flash">gemini-2.5-flash</option>
                         </select>
@@ -155,7 +156,7 @@
             <header>
                 <div class="branding">
                     <div class="logo">Clear Maker2</div>
-                    <span class="version-tag">v2.1.4</span>
+                    <span class="version-tag">v2.1.10</span>
                 </div>
                 <div class="header-actions" style="display: flex; gap: 8px;">
                     <button id="theme-toggle" class="icon-btn" title="テーマ切り替え">🌙</button>
@@ -281,6 +282,24 @@
         </div>
     </div>
 
+    <!-- TeX Sauce Maker 連携確認モーダル -->
+    <div id="tex-confirm-modal" class="modal hidden">
+        <div class="modal-content" style="max-width: 480px; text-align: center;">
+            <div class="modal-header">
+                <h2>📐 TeXコード作成</h2>
+                <button id="close-tex-confirm" class="icon-btn">&times;</button>
+            </div>
+            <p style="margin: 16px 0; color: var(--text-secondary); line-height: 1.6;">
+                模範解答例の生成が完了しました。<br>
+                この結果をTeX Sauce Makerに送信して<br>TeXコードを作成しますか？
+            </p>
+            <div style="display: flex; gap: 12px; justify-content: center; margin-top: 20px;">
+                <button id="tex-confirm-cancel" class="secondary-btn" style="min-width: 120px;">閉じる</button>
+                <button id="tex-confirm-ok" class="primary-btn" style="min-width: 120px;">✨ 作成する</button>
+            </div>
+        </div>
+    </div>
+
     <!-- README Modal -->
     <div id="readme-modal" class="modal hidden">
         <div class="modal-content large-modal">
@@ -301,7 +320,7 @@
         </div>
     </div>
 
-    <script src="app.js?v=2.1.4"></script>
+    <script src="app.js?v=2.1.10"></script>
 </body>
 
 </html>

@@ -1,4 +1,4 @@
-const CACHE_NAME = 'clear-maker2-cache-v2.1.4';
+const CACHE_NAME = 'clear-maker2-cache-v2.1.10';
 const ASSETS_TO_CACHE = [
     './',
     './index.html',
@@ -32,6 +32,12 @@ self.addEventListener('install', (event) => {
 });
 
 self.addEventListener('fetch', (event) => {
+    // 外部API (Google Apps Script) へのリクエストや、POSTなどの非GETリクエストは
+    // Service Workerのキャッシュ対象外としてバイパスし、ブラウザのデフォルト処理に任せる
+    if (event.request.method !== 'GET' || event.request.url.includes('script.google.com')) {
+        return;
+    }
+
     // Check if the request is for navigation (HTML) or local assets
     const isNavigation = event.request.mode === 'navigate';
     const isLocalAsset = event.request.url.startsWith(self.location.origin);
