@@ -43,7 +43,7 @@
     <script>
         if ('serviceWorker' in navigator) {
             window.addEventListener('load', () => {
-                navigator.serviceWorker.register('./sw.js?v=2.1.10')
+                navigator.serviceWorker.register('./sw.js?v=2.2.0')
                     .then(registration => {
                         console.log('ServiceWorker registration successful with scope: ', registration.scope);
 
@@ -114,9 +114,9 @@
                         <select id="model-select">
                             <option value="gemini-3.1-pro-preview">gemini-3.1-pro-preview</option>
                             <option value="gemini-3-pro-preview">gemini-3-pro-preview</option>
+                            <option value="gemini-2.5-pro">gemini-2.5-pro</option>
                             <option value="gemini-3-flash-preview">gemini-3-flash-preview</option>
                             <option value="gemini-3.1-flash-lite-preview">gemini-3.1-flash-lite-preview</option>
-                            <option value="gemini-2.5-pro">gemini-2.5-pro</option>
                             <option value="gemini-2.5-flash">gemini-2.5-flash</option>
                         </select>
                     </div>
@@ -156,7 +156,7 @@
             <header>
                 <div class="branding">
                     <div class="logo">Clear Maker2</div>
-                    <span class="version-tag">v2.1.10</span>
+                    <span class="version-tag">v2.2.0</span>
                 </div>
                 <div class="header-actions" style="display: flex; gap: 8px;">
                     <button id="theme-toggle" class="icon-btn" title="テーマ切り替え">🌙</button>
@@ -253,6 +253,12 @@
                         <p>ファイルを選択または，<br>ここに生徒の解答をドロップ</p>
                     </div>
                     <div id="thumbnails-student" class="thumbnail-container-mini hidden"></div>
+                    <div id="student-nav" class="student-nav hidden">
+                        <button id="prev-student" class="nav-btn" title="前の生徒">◀ 前の生徒</button>
+                        <span id="student-counter" class="student-counter">1 / 1 枚目</span>
+                        <button id="next-student" class="nav-btn" title="次の生徒">次の生徒 ▶</button>
+                        <button id="merge-student" class="nav-btn merge-btn" title="前の画像とまとめる">➕ 前とまとめる</button>
+                    </div>
                 </div>
             </div>
             <div class="response-header">
@@ -320,7 +326,12 @@
         </div>
     </div>
 
-    <script src="app.js?v=2.1.10"></script>
+    <!-- 画像拡大プレビュー用オーバーレイ -->
+    <div id="img-preview-overlay" class="img-preview-overlay hidden">
+        <img id="img-preview-large" src="" alt="拡大プレビュー">
+    </div>
+
+    <script src="app.js?v=2.2.0"></script>
 </body>
 
 </html>

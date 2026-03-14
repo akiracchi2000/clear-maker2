@@ -451,6 +451,16 @@ input:focus {
     border: 1px solid var(--border-color);
 }
 
+[data-theme="light"] .modal {
+    background-color: rgba(0, 0, 0, 0.3);
+}
+
+[data-theme="light"] .modal-content {
+    background-color: #ffffff;
+    border: 1px solid rgba(148, 163, 184, 0.3);
+    box-shadow: 0 20px 60px rgba(0, 0, 0, 0.15);
+}
+
 .modal-header {
     display: flex;
     justify-content: space-between;
@@ -639,6 +649,34 @@ input:focus {
 }
 
 /* Mini Thumbnail Container */
+.thumbnail-wrapper .remove-btn {
+    position: absolute;
+    top: -6px;
+    right: -6px;
+    background: var(--danger-color, #ef4444);
+    color: white;
+    border: none;
+    border-radius: 50%;
+    width: 20px;
+    height: 20px;
+    font-size: 14px;
+    line-height: 20px;
+    text-align: center;
+    cursor: pointer;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.3);
+    z-index: 10;
+    padding: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: transform 0.2s, background-color 0.2s;
+}
+
+.thumbnail-wrapper .remove-btn:hover {
+    background: #b91c1c;
+    transform: scale(1.1);
+}
+
 .thumbnail-container-mini {
     margin-top: 10px;
     display: flex;
@@ -788,12 +826,135 @@ input:focus {
 }
 
 .response-preview-image {
-    width: auto;
     max-width: 100%;
-    height: auto;
-    max-height: none;
-    object-fit: contain;
-    border-radius: 8px;
-    background-color: var(--bg-secondary);
+    max-height: 300px;
+    border-radius: var(--radius-md);
+    margin-bottom: 20px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.3);
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
     border: 1px solid var(--border-color);
+}
+
+/* Visibility hide (maintains layout memory for iframes/svgs) */
+.editor-hidden {
+    position: absolute !important;
+    visibility: hidden !important;
+    opacity: 0 !important;
+    pointer-events: none !important;
+    z-index: -100 !important;
+}
+
+/* =========================================
+   生徒ナビゲーション（バッチ処理コントローラー）
+   ========================================= */
+.student-nav {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 12px;
+    margin-top: 10px;
+    padding: 8px 12px;
+    background: rgba(59, 130, 246, 0.08);
+    border: 1px solid rgba(59, 130, 246, 0.2);
+    border-radius: var(--radius-md);
+}
+
+.nav-btn {
+    background: rgba(59, 130, 246, 0.15);
+    color: var(--accent-color);
+    border: 1px solid rgba(59, 130, 246, 0.3);
+    border-radius: var(--radius-md);
+    padding: 6px 14px;
+    font-size: 0.8rem;
+    font-weight: 600;
+    cursor: pointer;
+    transition: all 0.2s;
+    white-space: nowrap;
+    font-family: inherit;
+}
+
+.nav-btn:hover:not(:disabled) {
+    background: var(--accent-color);
+    color: #fff;
+    border-color: var(--accent-color);
+    transform: translateY(-1px);
+    box-shadow: 0 2px 8px rgba(59, 130, 246, 0.3);
+}
+
+.nav-btn:disabled {
+    opacity: 0.35;
+    cursor: not-allowed;
+    transform: none;
+    box-shadow: none;
+}
+
+.student-counter {
+    font-size: 0.85rem;
+    font-weight: 600;
+    color: var(--text-primary);
+    min-width: 80px;
+    text-align: center;
+    letter-spacing: 0.02em;
+}
+
+/* まとめるボタン（緑系：磁石アイコンの赤と対比） */
+.merge-btn {
+    background: rgba(16, 185, 129, 0.15);
+    color: #34d399;
+    border-color: rgba(16, 185, 129, 0.3);
+}
+
+.merge-btn:hover:not(:disabled) {
+    background: #10b981;
+    color: #fff;
+    border-color: #10b981;
+    box-shadow: 0 2px 8px rgba(16, 185, 129, 0.3);
+}
+
+[data-theme="light"] .merge-btn {
+    background: rgba(5, 150, 105, 0.12);
+    color: #047857;
+    border-color: rgba(5, 150, 105, 0.4);
+    font-weight: 700;
+}
+
+[data-theme="light"] .merge-btn:hover:not(:disabled) {
+    background: #059669;
+    color: #fff;
+    border-color: #059669;
+}
+
+/* =========================================
+   画像拡大プレビュー（オーバーレイ）
+   ========================================= */
+.img-preview-overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    background: rgba(0, 0, 0, 0.5);
+    backdrop-filter: blur(1px);
+    z-index: 300;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    pointer-events: none;
+    opacity: 0;
+    transition: opacity 0.2s ease;
+}
+
+.img-preview-overlay.active {
+    opacity: 1;
+}
+
+.img-preview-overlay img {
+    max-width: 80vw;
+    max-height: 80vh;
+    object-fit: contain;
+    border-radius: 12px;
+    box-shadow: 0 20px 60px rgba(0, 0, 0, 0.5);
+    border: 2px solid rgba(255, 255, 255, 0.15);
 }
