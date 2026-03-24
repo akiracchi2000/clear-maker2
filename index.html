@@ -43,7 +43,7 @@
     <script>
         if ('serviceWorker' in navigator) {
             window.addEventListener('load', () => {
-                navigator.serviceWorker.register('./sw.js?v=2.2.0')
+                navigator.serviceWorker.register('./sw.js?v=2.4.2')
                     .then(registration => {
                         console.log('ServiceWorker registration successful with scope: ', registration.scope);
 
@@ -121,6 +121,28 @@
                         </select>
                     </div>
                 </div>
+
+                <div class="setting-group" style="margin-top: 1rem;">
+                    <label class="checkbox-label"
+                        style="display: flex; align-items: center; gap: 8px; cursor: pointer;">
+                        <input type="checkbox" id="show-confidence">
+                        AI確信度を表示する
+                    </label>
+                    <p style="font-size: 0.8rem; color: var(--text-secondary); margin: 4px 0 0 26px;">
+                        OFFにすると回答末尾の確信度表示が非表示になります
+                    </p>
+                </div>
+                <div class="setting-group" style="margin-top: 0.5rem;">
+                    <label class="checkbox-label"
+                        style="display: flex; align-items: center; gap: 8px; cursor: pointer;">
+                        <input type="checkbox" id="auto-retry">
+                        確信度が低い場合に自動で再検証する
+                    </label>
+                    <p style="font-size: 0.8rem; color: var(--text-secondary); margin: 4px 0 0 26px;">
+                        ONにすると確信度90%未満の場合に自動で再生成し解を比較します（APIコスト最大2倍）
+                    </p>
+                </div>
+
                 <button id="save-settings" class="primary-btn">保存</button>
 
             </div>
@@ -156,7 +178,7 @@
             <header>
                 <div class="branding">
                     <div class="logo">Clear Maker2</div>
-                    <span class="version-tag">v2.2.0</span>
+                    <span class="version-tag">v2.4.2</span>
                 </div>
                 <div class="header-actions" style="display: flex; gap: 8px;">
                     <button id="theme-toggle" class="icon-btn" title="テーマ切り替え">🌙</button>
@@ -278,7 +300,15 @@
             </div>
             <div id="loading-indicator" class="loading hidden">
                 <div class="spinner"></div>
-                <span>Generating response...</span>
+                <span id="loading-text">Generating response...</span>
+            </div>
+            <!-- 再検証バッジ/バナー -->
+            <div id="verify-container" class="hidden">
+                <div id="verify-badge" class="verify-badge hidden">再検証済み ✅</div>
+                <div id="verify-warning" class="verify-warning hidden">
+                    <span>⚠️ 再検証の結果、回答に差異がありました</span>
+                    <button id="alt-response-btn" class="alt-response-btn">他の回答を表示</button>
+                </div>
             </div>
             <div id="response-area" class="response-area">
                 <div class="placeholder-text">ここにAIの回答が表示されます</div>
@@ -331,7 +361,7 @@
         <img id="img-preview-large" src="" alt="拡大プレビュー">
     </div>
 
-    <script src="app.js?v=2.2.0"></script>
+    <script src="app.js?v=2.4.2"></script>
 </body>
 
 </html>
