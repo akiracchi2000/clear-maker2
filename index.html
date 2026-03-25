@@ -121,6 +121,24 @@
                         </select>
                     </div>
                 </div>
+                <div class="setting-group" style="margin-top: 1rem;">
+                    <label class="checkbox-label" style="display: flex; align-items: center; gap: 8px; cursor: pointer;">
+                        <input type="checkbox" id="show-confidence">
+                        AI確信度を表示する
+                    </label>
+                    <p style="font-size: 0.8rem; color: var(--text-secondary); margin: 4px 0 0 26px;">
+                        OFFにすると回答末尾の確信度表示が非表示になります
+                    </p>
+                </div>
+                <div class="setting-group" style="margin-top: 0.5rem;">
+                    <label class="checkbox-label" style="display: flex; align-items: center; gap: 8px; cursor: pointer;">
+                        <input type="checkbox" id="auto-retry">
+                        確信度が低い場合に自動で再検証する
+                    </label>
+                    <p style="font-size: 0.8rem; color: var(--text-secondary); margin: 4px 0 0 26px;">
+                        ONにすると確信度90%未満の場合に自動で再生成し解を比較します（APIコスト最大2倍）
+                    </p>
+                </div>
                 <button id="save-settings" class="primary-btn">保存</button>
 
             </div>
@@ -134,6 +152,7 @@
                     <button id="close-paste-modal" class="icon-btn">&times;</button>
                 </div>
                 <p style="margin-bottom: 20px; color: var(--text-secondary);">貼り付け先のフォルダを選択してください</p>
+
                 <div class="paste-options" style="display: grid; grid-template-columns: 1fr 1fr 1fr; gap: 12px;">
                     <button class="paste-option-btn secondary-btn" data-target="question">
                         <span style="font-size: 2rem; display: block; margin-bottom: 8px;">❓</span>
@@ -274,6 +293,17 @@
                         <button id="cancel-edit-btn" class="secondary-btn" title="キャンセル">❌</button>
                         <button id="save-edit-btn" class="primary-btn" title="保存してプレビュー">💾</button>
                     </div>
+                </div>
+            </div>
+            
+            <!-- 再検証UI -->
+            <div id="verify-container" class="hidden" style="margin-bottom: 15px; padding: 12px; background: var(--bg-secondary); border-radius: 8px; text-align: center; font-size: 0.95rem; border: 1px solid var(--border-color);">
+                <div id="verify-badge" class="hidden" style="color: #10b981; font-weight: bold; display: flex; align-items: center; justify-content: center; gap: 6px;">
+                    ✅ <span>自動再検証：2回の検証で解答が一致しました</span>
+                </div>
+                <div id="verify-warning" class="hidden" style="color: #f59e0b; font-weight: bold; display: flex; align-items: center; justify-content: center; gap: 12px; flex-wrap: wrap;">
+                    <span>⚠️ 自動再検証：回答に差異がありました（確信度が高い方を表示中）</span>
+                    <button id="alt-response-btn" class="secondary-btn" style="font-size: 0.85rem; padding: 4px 10px;">他の回答を表示</button>
                 </div>
             </div>
             <div id="loading-indicator" class="loading hidden">
