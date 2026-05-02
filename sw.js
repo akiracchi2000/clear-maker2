@@ -1,4 +1,4 @@
-const CACHE_NAME = 'clear-maker2-cache-v2.2.6';
+const CACHE_NAME = 'clear-maker2-cache-v2.2.7';
 const ASSETS_TO_CACHE = [
     './',
     './index.html',
