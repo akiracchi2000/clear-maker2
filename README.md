@@ -17,6 +17,11 @@ Clear Maker2は、Google Gemini Proモデルを活用して、生徒の答案、
 
 ## 更新履歴 (Changelog)
 
+### v2.2.9 (2026-05-14)
+*   **[修正] GitHub Pages/PWAでTikZコンテナだけ白く残る不具合を修正**:
+    *   iframe内でTikZコードを配置してからTikZJaxを読み込む順序に変更し、GitHub Pages上で外部JSの読み込みタイミングによりSVG化が空振りする問題を回避しました。
+    *   TikZJaxのURLに描画ごとのキャッシュバスターを付け、PWA環境でも再描画時に確実に処理が走るようにしました。
+
 ### v2.2.8 (2026-05-14)
 *   **[修正] GitHub Pages/PWAで古いapp.jsが復元される問題を修正**:
     *   Service Workerのキャッシュ参照でクエリ文字列を無視しないようにし、`app.js?v=...` が古いキャッシュへフォールバックしないようにしました。
