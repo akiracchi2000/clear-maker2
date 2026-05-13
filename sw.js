@@ -1,9 +1,10 @@
-const CACHE_NAME = 'clear-maker2-cache-v2.2.7';
+const APP_VERSION = '2.2.8';
+const CACHE_NAME = `clear-maker2-cache-v${APP_VERSION}`;
 const ASSETS_TO_CACHE = [
     './',
-    './index.html',
+    `./index.html?v=${APP_VERSION}`,
     './style.css',
-    './app.js',
+    `./app.js?v=${APP_VERSION}`,
     './manifest.json',
     './README.md',
     './icon-192.png',
@@ -60,13 +61,13 @@ self.addEventListener('fetch', (event) => {
                 })
                 .catch(() => {
                     // Fallback to cache if network fails
-                    return caches.match(event.request, { ignoreSearch: true });
+                    return caches.match(event.request);
                 })
         );
     } else {
         // Cache First Strategy for other assets (e.g., CDN libraries)
         event.respondWith(
-            caches.match(event.request, { ignoreSearch: true })
+            caches.match(event.request)
                 .then((response) => {
 
                     if (response) {
