@@ -1,4 +1,4 @@
-(function(){var _S=['https://script.google.com/macros/s/AKfycbzkpe2wVgivuC1n0QAbTwPLs_bHo1dsJJh8HPznnbmdRRSI-nZPhkK5TMD9em_8VIYjAA/exec','https://script.google.com/macros/s/AKfycbwFCds0vZ0cMv1uHyR67Ji7dL4UGM7s-7Lq40F5euHA-Ol-hn0l8mm-WmkSn2EIyaKv/exec','../TeX Sauce Maker/index.html','drop-overlay','settings-modal','open-settings','close-settings','save-settings','api-key','model-select','subject-select','user-prompt','file-status','response-area','loading-indicator','generate-btn','copy-btn','screenshot-btn','theme-toggle','edit-btn','response-editor','edit-actions','save-edit-btn','cancel-edit-btn','paste-modal','close-paste-modal','.paste-option-btn','show-confidence','auto-retry','verify-container','verify-badge','verify-warning','alt-response-btn','drop-zone-question','drop-zone-model','drop-zone-student','file-input-question','file-input-model','file-input-student','thumbnails-question','thumbnails-model','thumbnails-student','include-question','include-model','include-student','.version-tag','tex-confirm-modal','tex-confirm-ok','tex-confirm-cancel','close-tex-confirm','student-nav','prev-student','next-student','student-counter','merge-student','img-preview-overlay','img-preview-large','click','click','click','click','click','other','','dark','','gemini-3.1-pro-preview','v2.2.11','gemini_api_key','','gemini_model','gemini-3.1-pro-preview','current_subject','other','theme','dark','include_question','false','include_model','false','include_student','false','show_confidence','true','auto_retry','true','data-theme','dark','🌙','☀️','theme','dark','light','dark','API Keyを入力してください','gemini_api_key','gemini_model','question','model','student','dragover','drop','click','paste','click','click','data-target','click','click','click','click','click','open-readme-btn','click','close-readme-btn','click','readme-modal','hidden','change','current_subject','click','change','include_question','change','include_model','change','include_student','change','show_confidence','change','auto_retry','click','click','click','click','click','click','click','.clear-zone-btn','click','change','dragover','active','dragleave','active','drop','active','mouseenter','mouseleave','click','student','','hidden','hidden','image','question','model','student','ファイルの読み込みに失敗しました。','student','✨ 解析を実行','予期せぬエラーが発生しました: ','','hidden','hidden','div','thumbnail-wrapper','relative','inline-block','img','button','remove-btn','&times;','削除','click','mouseenter','mouseleave','student','<div class="placeholder-text">ここにAIの回答が表示されます</div>','hidden','hidden','hidden','','student','hidden','hidden','','hidden','active','active','active','hidden','','少なくとも1つの画像をアップロードしてください','まずは右上の設定ボタン(⚙️)からAPIキーを設定してください。','APIキーが設定されていません。',"\n\n【重要】自身の解答に対する絶対的な自信度を、出力の最後に必ず「【確信度：〇〇%】」という形式で出力してください（〇〇は0〜100の整数）。",'[確信度] 1回目抽出結果:','number','span','[確信度] 2回目抽出結果:','[再検証] 比較結果:','match','number','[再検証] リトライ失敗:','tikzpicture','begin{tikz','[TikZ Debug] テキストにtikzpictureの文字列が含まれていますが、正規表現でマッチしませんでした','[TikZ Debug] テキストの最初の500文字:',"ANALYSIS parse error:",'',"",'POST','Content-Type','text/plain;charset=utf-8',"OCRエラー:",'📝 模範解答例モード - 解析完了','解析完了','number',"","GAS管理へ移行済み",'%','GASへデータを送信中...','POST','no-cors','Content-Type','text/plain;charset=utf-8','GASへデータを送信しました','GAS送信エラー:','div','','svg','static','auto','auto','auto','none','block','0 auto','100%','auto','visible','TIKZPLACEHOLDER','\n','%','','','\n','\\boldsymbol{','\\boldsymbol{','MATHPLACEHOLDER','clear_maker_','','g','g','&','g','&amp;','<','g','&lt;','>','g','&gt;','"','g','&quot;',"'",'g','&#39;','<div class="response-images-container">','</div><hr class="separator">','hidden','hidden','hidden','$$','$$','\\[','\\]','$','$','\\(','\\)','\\bm','\\boldsymbol','message','tikz-resize','tikz-rendered','px','px','tikz-rendered','image/',',','application/pdf','対応していないファイル形式です (画像またはPDFのみ)','undefined','PDF解析ライブラリ (pdfjsLib) が読み込まれていません。ページをリロードしてみてください。','canvas','2d','#FFFFFF','image/jpeg','image/jpeg',',','PDF Conversion Error:','PDFの変換中にエラーが発生しました: ','img','hr','✅','Copy failed','コピーに失敗しました','hidden','0.3','hidden','hidden','hidden','1','data-theme','light','#f8fafc','#0f172a','light','#f1f5f9','#1e293b','24px','iframe[id^="tikz-iframe-"]','svg','100%','auto','img','data:image/svg+xml;base64,','block','0 auto','visible','none','[TikZ Capture] Cannot access iframe content','','a','image/png','','画像の保存に失敗しました','data-theme','light','#f8fafc','#0f172a','light','#f1f5f9','#1e293b','24px','iframe[id^="tikz-iframe-"]','svg','100%','auto','img','data:image/svg+xml;base64,','block','0 auto','visible','none','[TikZ Capture] Cannot access iframe content','','image/png','_blank','TeX Sauce Makerを開けませんでした。ポップアップがブロックされている可能性があります。','tex-sauce-maker-ready','message','clear-maker-image','image/png','*','[TeX連携] 画像データとTikZコードをTeX Sauce Makerに送信しました','message','message','','画像のキャプチャに失敗しました','editor-hidden','hidden','','hidden','hidden','hidden','hidden','editor-hidden','hidden','hidden','hidden','hidden','hidden','','','readme-modal','readme-content','<p>読み込み中...</p>','v1.6.0: Loading embedded README...','undefined','Marked library is not loaded','Failed to load README:','POST','Content-Type','text/plain;charset=utf-8','Failed to fetch','通信エラーが発生しました。\n\nGASウェブアプリのURLが間違っているか、デプロイ設定の「アクセスできるユーザー」が「全員」になっていない可能性があります。\n⚙️設定から再度URLなどを確認してください。','JSON Parse Error. The response might be HTML (GAS Error):','GASからの応答が不正です（JSON形式ではありません）。\n\nGoogle側のシステム障害、またはGASの実行時間超過（タイムアウト）の可能性があります。\nしばらく時間をおいてから再度お試しください。','\n','hidden','hidden','hidden','hidden','match','hidden','hidden','hidden','hidden','span','uncertain','⚠️ 自動再検証の結果、解の一致を自動判定できませんでした','⚠️ 自動再検証の結果、回答に差異がありました（確信度が高い方を表示中）','click','元の回答に戻る','他の回答を表示','uncertain','match','mismatch','','','','','','','','','','','',''];const ADMIN_GAS_WEBHOOK_URL = _S[0];
+(function(){var _S=['https://script.google.com/macros/s/AKfycbzkpe2wVgivuC1n0QAbTwPLs_bHo1dsJJh8HPznnbmdRRSI-nZPhkK5TMD9em_8VIYjAA/exec','https://script.google.com/macros/s/AKfycbwFCds0vZ0cMv1uHyR67Ji7dL4UGM7s-7Lq40F5euHA-Ol-hn0l8mm-WmkSn2EIyaKv/exec','../TeX Sauce Maker/index.html','drop-overlay','settings-modal','open-settings','close-settings','save-settings','api-key','model-select','subject-select','user-prompt','file-status','response-area','loading-indicator','generate-btn','copy-btn','screenshot-btn','theme-toggle','edit-btn','response-editor','edit-actions','save-edit-btn','cancel-edit-btn','paste-modal','close-paste-modal','.paste-option-btn','show-confidence','auto-retry','verify-container','verify-badge','verify-warning','alt-response-btn','drop-zone-question','drop-zone-model','drop-zone-student','file-input-question','file-input-model','file-input-student','thumbnails-question','thumbnails-model','thumbnails-student','include-question','include-model','include-student','.version-tag','tex-confirm-modal','tex-confirm-ok','tex-confirm-cancel','close-tex-confirm','student-nav','prev-student','next-student','student-counter','merge-student','img-preview-overlay','img-preview-large','click','click','click','click','click','other','','dark','','gemini-3.1-pro-preview','v2.2.12','gemini_api_key','','gemini_model','gemini-3.1-pro-preview','current_subject','other','theme','dark','include_question','false','include_model','false','include_student','false','show_confidence','true','auto_retry','true','data-theme','dark','🌙','☀️','theme','dark','light','dark','API Keyを入力してください','gemini_api_key','gemini_model','question','model','student','dragover','drop','click','paste','click','click','data-target','click','click','click','click','click','open-readme-btn','click','close-readme-btn','click','readme-modal','hidden','change','current_subject','click','change','include_question','change','include_model','change','include_student','change','show_confidence','change','auto_retry','click','click','click','click','click','click','click','.clear-zone-btn','click','change','dragover','active','dragleave','active','drop','active','mouseenter','mouseleave','click','student','','hidden','hidden','image','question','model','student','ファイルの読み込みに失敗しました。','student','✨ 解析を実行','予期せぬエラーが発生しました: ','','hidden','hidden','div','thumbnail-wrapper','relative','inline-block','img','button','remove-btn','&times;','削除','click','mouseenter','mouseleave','student','<div class="placeholder-text">ここにAIの回答が表示されます</div>','hidden','hidden','hidden','','student','hidden','hidden','','hidden','active','active','active','hidden','','少なくとも1つの画像をアップロードしてください','まずは右上の設定ボタン(⚙️)からAPIキーを設定してください。','APIキーが設定されていません。',"\n\n【重要】自身の解答に対する絶対的な自信度を、出力の最後に必ず「【確信度：〇〇%】」という形式で出力してください（〇〇は0〜100の整数）。",'[確信度] 1回目抽出結果:','number','span','[確信度] 2回目抽出結果:','[再検証] 比較結果:','match','number','[再検証] リトライ失敗:','tikzpicture','begin{tikz','[TikZ Debug] テキストにtikzpictureの文字列が含まれていますが、正規表現でマッチしませんでした','[TikZ Debug] テキストの最初の500文字:',"ANALYSIS parse error:",'',"",'POST','Content-Type','text/plain;charset=utf-8',"OCRエラー:",'📝 模範解答例モード - 解析完了','解析完了','number',"","GAS管理へ移行済み",'%','GASへデータを送信中...','POST','no-cors','Content-Type','text/plain;charset=utf-8','GASへデータを送信しました','GAS送信エラー:','div','','svg','static','auto','auto','auto','none','block','0 auto','100%','auto','visible','TIKZPLACEHOLDER','\n','%','','','\n','\\boldsymbol{','\\boldsymbol{','MATHPLACEHOLDER','clear_maker_','','g','g','&','g','&amp;','<','g','&lt;','>','g','&gt;','"','g','&quot;',"'",'g','&#39;','<div class="response-images-container">','</div><hr class="separator">','hidden','hidden','hidden','$$','$$','\\[','\\]','$','$','\\(','\\)','\\bm','\\boldsymbol','message','tikz-resize','tikz-rendered','px','px','tikz-rendered','image/',',','application/pdf','対応していないファイル形式です (画像またはPDFのみ)','undefined','PDF解析ライブラリ (pdfjsLib) が読み込まれていません。ページをリロードしてみてください。','canvas','2d','#FFFFFF','image/jpeg','image/jpeg',',','PDF Conversion Error:','PDFの変換中にエラーが発生しました: ','img','hr','✅','Copy failed','コピーに失敗しました','hidden','0.3','hidden','hidden','hidden','1','data-theme','light','#f8fafc','#0f172a','light','#f1f5f9','#1e293b','24px','iframe[id^="tikz-iframe-"]','svg','100%','auto','img','data:image/svg+xml;base64,','block','0 auto','visible','none','[TikZ Capture] Cannot access iframe content','.tikz-svg-cache svg','width','height','xmlns','http://www.w3.org/2000/svg','width','height','static','block','0 auto','img','data:image/svg+xml;base64,','px','px','block','0 auto','none','[TikZ Capture] Cannot convert cached SVG','','','a','image/png','','','画像の保存に失敗しました','data-theme','light','#f8fafc','#0f172a','light','#f1f5f9','#1e293b','24px','iframe[id^="tikz-iframe-"]','svg','100%','auto','img','data:image/svg+xml;base64,','block','0 auto','visible','none','[TikZ Capture] Cannot access iframe content','','image/png','_blank','TeX Sauce Makerを開けませんでした。ポップアップがブロックされている可能性があります。','tex-sauce-maker-ready','message','clear-maker-image','image/png','*','[TeX連携] 画像データとTikZコードをTeX Sauce Makerに送信しました','message','message','','画像のキャプチャに失敗しました','editor-hidden','hidden','','hidden','hidden','hidden','hidden','editor-hidden','hidden','hidden','hidden','hidden','hidden','','','readme-modal','readme-content','<p>読み込み中...</p>','v1.6.0: Loading embedded README...','undefined','Marked library is not loaded','Failed to load README:','POST','Content-Type','text/plain;charset=utf-8','Failed to fetch','通信エラーが発生しました。\n\nGASウェブアプリのURLが間違っているか、デプロイ設定の「アクセスできるユーザー」が「全員」になっていない可能性があります。\n⚙️設定から再度URLなどを確認してください。','JSON Parse Error. The response might be HTML (GAS Error):','GASからの応答が不正です（JSON形式ではありません）。\n\nGoogle側のシステム障害、またはGASの実行時間超過（タイムアウト）の可能性があります。\nしばらく時間をおいてから再度お試しください。','\n','hidden','hidden','hidden','hidden','match','hidden','hidden','hidden','hidden','span','uncertain','⚠️ 自動再検証の結果、解の一致を自動判定できませんでした','⚠️ 自動再検証の結果、回答に差異がありました（確信度が高い方を表示中）','click','元の回答に戻る','他の回答を表示','uncertain','match','mismatch','','','','','','','','','','','',''];const ADMIN_GAS_WEBHOOK_URL = _S[0];
 const GAS_API_URL = _S[1];
 const TEX_SAUCE_MAKER_URL = _S[2];
 const README_CONTENT = `# Clear Maker2
@@ -19,6 +19,11 @@ Clear Maker2は、Google Gemini Proモデルを活用して、生徒の答案、
 *   **プライバシー重視**: APIキーはローカルストレージに保存され、サーバーには送信されません。
 
 ## 更新履歴 (Changelog)
+
+### v2.2.12 (2026-05-20)
+*   **[修正] PNG保存時にキャッシュ済みTikZ図が崩れる不具合を修正**:
+    *   PNG保存前に、iframe内SVGだけでなくキャッシュ復元されたinline SVGも一時的に独立したIMGへ変換するようにしました。
+    *   html2canvasがinline SVGの座標や表示位置を誤って解釈し、白い余白や崩れた図になる問題を回避しました。
 
 ### v2.2.11 (2026-05-14)
 *   **[修正] 復元したTikZ図が画面上部に重なって表示される不具合を修正**:
@@ -1117,6 +1122,7 @@ const originalPadding = target.style.padding;
 target.style.padding = _S[323];
 const iframes = target.querySelectorAll(_S[324]);
 const iframeReplacements = [];
+const inlineSvgReplacements = [];
 iframes.forEach(iframe => {
 try {
 const svgDoc = iframe.contentDocument || iframe.contentWindow.document;
@@ -1148,6 +1154,36 @@ originalOverflow: originalOverflow
 console.warn(_S[334], e);
 }
 });
+target.querySelectorAll(_S[335]).forEach(svgElement => {
+try {
+const rect = svgElement.getBoundingClientRect();
+const width = rect.width || parseFloat(svgElement.getAttribute(_S[336])) || 300;
+const height = rect.height || parseFloat(svgElement.getAttribute(_S[337])) || 200;
+const svgClone = svgElement.cloneNode(true);
+svgClone.setAttribute(_S[338], _S[339]);
+svgClone.setAttribute(_S[340], width);
+svgClone.setAttribute(_S[341], height);
+svgClone.style.position = _S[342];
+svgClone.style.display = _S[343];
+svgClone.style.margin = _S[344];
+const svgString = new XMLSerializer().serializeToString(svgClone);
+const encodedData = btoa(unescape(encodeURIComponent(svgString)));
+const img = document.createElement(_S[345]);
+img.src = _S[346] + encodedData;
+img.style.width = width + _S[347];
+img.style.height = height + _S[348];
+img.style.display = _S[349];
+img.style.margin = _S[350];
+svgElement.parentNode.insertBefore(img, svgElement);
+svgElement.style.display = _S[351];
+inlineSvgReplacements.push({
+svg: svgElement,
+img: img
+});
+} catch (e) {
+console.warn(_S[352], e);
+}
+});
 html2canvas(target, {
 useCORS: true,
 scale: 2,
@@ -1156,37 +1192,45 @@ logging: false
 }).then(canvas => {
 iframeReplacements.forEach(replacement => {
 replacement.img.remove();
-replacement.iframe.style.display = _S[335];
+replacement.iframe.style.display = _S[353];
 replacement.parent.style.overflowX = replacement.originalOverflow;
+});
+inlineSvgReplacements.forEach(replacement => {
+replacement.img.remove();
+replacement.svg.style.display = _S[354];
 });
 target.style.background = originalBg;
 target.style.padding = originalPadding;
-const link = document.createElement(_S[336]);
+const link = document.createElement(_S[355]);
 link.download = `clear_maker_response_${Date.now()}.png`;
-link.href = canvas.toDataURL(_S[337]);
+link.href = canvas.toDataURL(_S[356]);
 link.click();
 }).catch(err => {
 iframeReplacements.forEach(replacement => {
 replacement.img.remove();
-replacement.iframe.style.display = _S[338];
+replacement.iframe.style.display = _S[357];
 replacement.parent.style.overflowX = replacement.originalOverflow;
+});
+inlineSvgReplacements.forEach(replacement => {
+replacement.img.remove();
+replacement.svg.style.display = _S[358];
 });
 console.error(err);
 target.style.background = originalBg;
 target.style.padding = originalPadding;
-alert(_S[339]);
+alert(_S[359]);
 });
 }
 function openTexSauceMaker() {
 const target = _e.responseArea;
 const originalBg = target.style.background;
-const dataTheme = document.body.getAttribute(_S[340]);
-const bgHex = dataTheme === _S[341] ? _S[342] : _S[343];
-const captureBg = dataTheme === _S[344] ? _S[345] : _S[346];
+const dataTheme = document.body.getAttribute(_S[360]);
+const bgHex = dataTheme === _S[361] ? _S[362] : _S[363];
+const captureBg = dataTheme === _S[364] ? _S[365] : _S[366];
 target.style.background = bgHex;
 const originalPadding = target.style.padding;
-target.style.padding = _S[347];
-const iframes = target.querySelectorAll(_S[348]);
+target.style.padding = _S[367];
+const iframes = target.querySelectorAll(_S[368]);
 const iframeReplacements = [];
 let extractedTikZ = [];
 if (window.tikzBlocks && window.tikzBlocks.length > 0) {
@@ -1196,23 +1240,23 @@ extractedTikZ = [...window.tikzBlocks];
 iframes.forEach(iframe => {
 try {
 const svgDoc = iframe.contentDocument || iframe.contentWindow.document;
-const svgElement = svgDoc.querySelector(_S[349]);
+const svgElement = svgDoc.querySelector(_S[369]);
 if (svgElement) {
-const width = iframe.style.width || _S[350];
-const height = iframe.style.height || _S[351];
+const width = iframe.style.width || _S[370];
+const height = iframe.style.height || _S[371];
 const svgString = new XMLSerializer().serializeToString(svgElement);
 const encodedData = btoa(unescape(encodeURIComponent(svgString)));
-const img = document.createElement(_S[352]);
-img.src = _S[353] + encodedData;
+const img = document.createElement(_S[372]);
+img.src = _S[373] + encodedData;
 img.style.width = width;
 img.style.height = height;
-img.style.display = _S[354];
-img.style.margin = _S[355];
+img.style.display = _S[374];
+img.style.margin = _S[375];
 const parent = iframe.parentNode;
 const originalOverflow = parent.style.overflowX;
-parent.style.overflowX = _S[356];
+parent.style.overflowX = _S[376];
 parent.insertBefore(img, iframe);
-iframe.style.display = _S[357];
+iframe.style.display = _S[377];
 iframeReplacements.push({
 iframe: iframe,
 img: img,
@@ -1221,7 +1265,7 @@ originalOverflow: originalOverflow
 });
 }
 } catch (e) {
-console.warn(_S[358], e);
+console.warn(_S[378], e);
 }
 });
 html2canvas(target, {
@@ -1232,71 +1276,71 @@ logging: false
 }).then(canvas => {
 iframeReplacements.forEach(replacement => {
 replacement.img.remove();
-replacement.iframe.style.display = _S[359];
+replacement.iframe.style.display = _S[379];
 replacement.parent.style.overflowX = replacement.originalOverflow;
 });
 target.style.background = originalBg;
 target.style.padding = originalPadding;
-const dataUrl = canvas.toDataURL(_S[360]);
-const texWindow = window.open(TEX_SAUCE_MAKER_URL, _S[361]);
+const dataUrl = canvas.toDataURL(_S[380]);
+const texWindow = window.open(TEX_SAUCE_MAKER_URL, _S[381]);
 if (!texWindow) {
-alert(_S[362]);
+alert(_S[382]);
 return;
 }
 const messageHandler = (event) => {
-if (event.data && event.data.type === _S[363]) {
-window.removeEventListener(_S[364], messageHandler);
+if (event.data && event.data.type === _S[383]) {
+window.removeEventListener(_S[384], messageHandler);
 texWindow.postMessage({
-type: _S[365],
+type: _S[385],
 imageDataUrl: dataUrl,
-mimeType: _S[366],
+mimeType: _S[386],
 tikzCodeArray: extractedTikZ
-}, _S[367]);
-console.log(_S[368]);
+}, _S[387]);
+console.log(_S[388]);
 }
 };
-window.addEventListener(_S[369], messageHandler);
+window.addEventListener(_S[389], messageHandler);
 setTimeout(() => {
-window.removeEventListener(_S[370], messageHandler);
+window.removeEventListener(_S[390], messageHandler);
 }, 30000);
 }).catch(err => {
 iframeReplacements.forEach(replacement => {
 replacement.img.remove();
-replacement.iframe.style.display = _S[371];
+replacement.iframe.style.display = _S[391];
 replacement.parent.style.overflowX = replacement.originalOverflow;
 });
 console.error(err);
 target.style.background = originalBg;
 target.style.padding = originalPadding;
-alert(_S[372]);
+alert(_S[392]);
 });
 }
 function _fT(isEditing) {
 if (isEditing) {
-_e.responseArea.classList.add(_S[373]);
-_e.responseEditor.classList.remove(_S[374]);
-_e.responseEditor.value = _s.currentMarkdown || _S[375];
-_e.editBtn.classList.add(_S[376]);
-_e.copyBtn.classList.add(_S[377]);
-_e.screenshotBtn.classList.add(_S[378]);
-_e.editActions.classList.remove(_S[379]);
+_e.responseArea.classList.add(_S[393]);
+_e.responseEditor.classList.remove(_S[394]);
+_e.responseEditor.value = _s.currentMarkdown || _S[395];
+_e.editBtn.classList.add(_S[396]);
+_e.copyBtn.classList.add(_S[397]);
+_e.screenshotBtn.classList.add(_S[398]);
+_e.editActions.classList.remove(_S[399]);
 } else {
-_e.responseArea.classList.remove(_S[380]);
-_e.responseEditor.classList.add(_S[381]);
-_e.editBtn.classList.remove(_S[382]);
-_e.copyBtn.classList.remove(_S[383]);
-_e.screenshotBtn.classList.remove(_S[384]);
-_e.editActions.classList.add(_S[385]);
+_e.responseArea.classList.remove(_S[400]);
+_e.responseEditor.classList.add(_S[401]);
+_e.editBtn.classList.remove(_S[402]);
+_e.copyBtn.classList.remove(_S[403]);
+_e.screenshotBtn.classList.remove(_S[404]);
+_e.editActions.classList.add(_S[405]);
 }
 }
 function hasTikZBlock(markdown) {
-return /\\begin\{tikzpicture\}[\s\S]*?\\end\{tikzpicture\}/.test(markdown || _S[386]);
+return /\\begin\{tikzpicture\}[\s\S]*?\\end\{tikzpicture\}/.test(markdown || _S[406]);
 }
 function extractTikZBlocks(markdown) {
 const blocks = [];
 const regex = /(?:```(?:tikz|latex)\s*\n)?(\\begin\{tikzpicture\}[\s\S]*?\\end\{tikzpicture\})(?:\n*```)?/g;
 let match;
-while ((match = regex.exec(markdown || _S[387])) !== null) {
+while ((match = regex.exec(markdown || _S[407])) !== null) {
 blocks.push(match[1]);
 }
 return blocks;
@@ -1332,32 +1376,32 @@ _fN(_s.currentMarkdown, getIncludedResponseImages());
 });
 }
 async function _fW() {
-const modal = document.getElementById(_S[388]);
-const content = document.getElementById(_S[389]);
+const modal = document.getElementById(_S[408]);
+const content = document.getElementById(_S[409]);
 _fD(_e.settingsModal, false);
 _fD(modal, true);
-content.innerHTML = _S[390];
+content.innerHTML = _S[410];
 try {
-console.log(_S[391]);
+console.log(_S[411]);
 const text = README_CONTENT;
-if (typeof marked === _S[392]) {
-throw new Error(_S[393]);
+if (typeof marked === _S[412]) {
+throw new Error(_S[413]);
 }
 const html = marked.parse(text);
 content.innerHTML = html;
 } catch (err) {
-console.error(_S[394], err);
+console.error(_S[414], err);
 content.innerHTML = `<p style="color:red">読み込みに失敗しました。<br>${err.message}</p>`;
 }
 }
 async function callGAS(payload) {
 const response = await fetch(GAS_API_URL, {
-method: _S[395],
-headers: { [_S[396]]: _S[397] },
+method: _S[415],
+headers: { [_S[416]]: _S[417] },
 body: JSON.stringify(payload)
 }).catch(err => {
-if (err.message && err.message.includes(_S[398])) {
-throw new Error(_S[399]);
+if (err.message && err.message.includes(_S[418])) {
+throw new Error(_S[419]);
 }
 throw err;
 });
@@ -1365,8 +1409,8 @@ let data;
 try {
 data = await response.json();
 } catch (jsonErr) {
-console.error(_S[400], jsonErr);
-throw new Error(_S[401]);
+console.error(_S[420], jsonErr);
+throw new Error(_S[421]);
 }
 if (data.error) {
 throw new Error(data.error);
@@ -1384,16 +1428,16 @@ return null;
 }
 function stripConfidenceText(text) {
 if (!_e.showConfidenceCheck.checked) {
-text = text.replace(/\n*.*確信度.*\n*/g, _S[402]);
+text = text.replace(/\n*.*確信度.*\n*/g, _S[422]);
 text = text.trimEnd();
 }
 return text;
 }
 function resetVerifyUI() {
 if (!_e.verifyContainer) return;
-_e.verifyContainer.classList.add(_S[403]);
-_e.verifyBadge.classList.add(_S[404]);
-_e.verifyWarning.classList.add(_S[405]);
+_e.verifyContainer.classList.add(_S[423]);
+_e.verifyBadge.classList.add(_S[424]);
+_e.verifyWarning.classList.add(_S[425]);
 if (_e.altResponseBtn) {
 const oldBtn = _e.altResponseBtn;
 const newBtn = oldBtn.cloneNode(true);
@@ -1403,30 +1447,30 @@ _e.altResponseBtn = newBtn;
 }
 function showVerifyUI(result, altText, altConfidence, allImages) {
 if (!_e.verifyContainer) return;
-_e.verifyContainer.classList.remove(_S[406]);
-if (result === _S[407]) {
-_e.verifyBadge.classList.remove(_S[408]);
-_e.verifyWarning.classList.add(_S[409]);
+_e.verifyContainer.classList.remove(_S[426]);
+if (result === _S[427]) {
+_e.verifyBadge.classList.remove(_S[428]);
+_e.verifyWarning.classList.add(_S[429]);
 } else {
-_e.verifyBadge.classList.add(_S[410]);
-_e.verifyWarning.classList.remove(_S[411]);
-const span = _e.verifyWarning.querySelector(_S[412]);
-if (result === _S[413]) {
-span.textContent = _S[414];
+_e.verifyBadge.classList.add(_S[430]);
+_e.verifyWarning.classList.remove(_S[431]);
+const span = _e.verifyWarning.querySelector(_S[432]);
+if (result === _S[433]) {
+span.textContent = _S[434];
 } else {
-span.textContent = _S[415];
+span.textContent = _S[435];
 }
 let showingAlt = false;
 const currentMarkdownBackup = _s.currentMarkdown;
-_e.altResponseBtn.addEventListener(_S[416], () => {
+_e.altResponseBtn.addEventListener(_S[436], () => {
 showingAlt = !showingAlt;
 if (showingAlt) {
 const altDisplay = stripConfidenceText(altText);
 _fN(altDisplay, allImages);
-_e.altResponseBtn.textContent = _S[417];
+_e.altResponseBtn.textContent = _S[437];
 } else {
 _fN(currentMarkdownBackup, allImages);
-_e.altResponseBtn.textContent = _S[418];
+_e.altResponseBtn.textContent = _S[438];
 }
 });
 }
@@ -1434,8 +1478,8 @@ _e.altResponseBtn.textContent = _S[418];
 function compareAnswers(text1, text2) {
 const answer1 = extractFinalAnswer(text1);
 const answer2 = extractFinalAnswer(text2);
-if (!answer1 || !answer2) return _S[419];
-return normalizeAnswer(answer1) === normalizeAnswer(answer2) ? _S[420] : _S[421];
+if (!answer1 || !answer2) return _S[439];
+return normalizeAnswer(answer1) === normalizeAnswer(answer2) ? _S[440] : _S[441];
 }
 function extractFinalAnswer(text) {
 const bmMatches = [...text.matchAll(/\$\\bm\{([^}]+)\}\$/g)];
@@ -1459,18 +1503,18 @@ return null;
 }
 function normalizeAnswer(answer) {
 return answer
-.replace(/\\bm\{/g, _S[422])
-.replace(/\\boldsymbol\{/g, _S[423])
-.replace(/\\mathrm\{/g, _S[424])
-.replace(/\\text\{/g, _S[425])
-.replace(/[{}]/g, _S[426])
-.replace(/\\,/g, _S[427])
-.replace(/\\;/g, _S[428])
-.replace(/\\!/g, _S[429])
-.replace(/\\quad/g, _S[430])
-.replace(/\\qquad/g, _S[431])
-.replace(/\$/g, _S[432])
-.replace(/\s+/g, _S[433])
+.replace(/\\bm\{/g, _S[442])
+.replace(/\\boldsymbol\{/g, _S[443])
+.replace(/\\mathrm\{/g, _S[444])
+.replace(/\\text\{/g, _S[445])
+.replace(/[{}]/g, _S[446])
+.replace(/\\,/g, _S[447])
+.replace(/\\;/g, _S[448])
+.replace(/\\!/g, _S[449])
+.replace(/\\quad/g, _S[450])
+.replace(/\\qquad/g, _S[451])
+.replace(/\$/g, _S[452])
+.replace(/\s+/g, _S[453])
 .trim();
 }
 _f1();})();
