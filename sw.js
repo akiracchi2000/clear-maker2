@@ -1,4 +1,4 @@
-const APP_VERSION = '2.3.1';
+const APP_VERSION = '2.3.2';
 const CACHE_NAME = `clear-maker2-cache-v${APP_VERSION}`;
 const ASSETS_TO_CACHE = [
     './',
