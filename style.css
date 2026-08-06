@@ -725,6 +725,22 @@ input:focus {
     padding: 16px 8px;
 }
 
+.source-input {
+    width: 100%;
+    min-height: 92px;
+    margin-top: 10px;
+    padding: 10px;
+    font-family: "SFMono-Regular", Consolas, "Liberation Mono", monospace;
+    font-size: 0.78rem;
+    line-height: 1.45;
+    resize: vertical;
+}
+
+.source-input:not(:placeholder-shown) {
+    border-color: var(--accent-color);
+    background-color: rgba(59, 130, 246, 0.08);
+}
+
 /* Ensure right panel content (response) takes remaining space */
 /* .right-panel .response-header,
 .right-panel #response-area,

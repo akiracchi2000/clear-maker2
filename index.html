@@ -43,7 +43,7 @@
     <script>
         if ('serviceWorker' in navigator) {
             window.addEventListener('load', () => {
-                navigator.serviceWorker.register('./sw.js?v=2.3.3')
+                navigator.serviceWorker.register('./sw.js?v=2.4.0')
                     .then(registration => {
                         console.log('ServiceWorker registration successful with scope: ', registration.scope);
 
@@ -175,7 +175,7 @@
             <header>
                 <div class="branding">
                     <div class="logo">Clear Maker2</div>
-                    <span class="version-tag">v2.3.3</span>
+                    <span class="version-tag">v2.4.0</span>
                 </div>
                 <div class="header-actions" style="display: flex; gap: 8px;">
                     <button id="theme-toggle" class="icon-btn" title="テーマ切り替え">🌙</button>
@@ -205,7 +205,7 @@
             <!-- Moved to Right Panel -->
 
             <div class="status-bar">
-                <span id="file-status">画像合計: 0枚</span>
+                <span id="file-status">入力: なし</span>
             </div>
 
             <div class="control-group" style="margin-top: auto; padding-top: 20px;">
@@ -228,12 +228,14 @@
                             <button class="clear-zone-btn icon-btn-small" title="クリア">🗑️</button>
                         </div>
                     </div>
-                    <input type="file" id="file-input-question" accept="image/*,application/pdf" multiple
+                    <input type="file" id="file-input-question" accept="image/*,application/pdf,text/plain,text/markdown,text/x-tex,text/html,.tex,.txt,.md,.markdown,.html,.htm" multiple
                         class="hidden">
                     <div id="drop-zone-question" class="drop-area">
-                        <p>ファイルを選択または，<br>ここに問題をドロップ</p>
+                        <p>画像・PDF・ソースファイルを選択<br>または，ここに問題をドロップ</p>
                     </div>
                     <div id="thumbnails-question" class="thumbnail-container-mini hidden"></div>
+                    <textarea id="source-question" class="source-input" rows="5"
+                        placeholder="問題のソースを貼り付け（LaTeX / Markdown / HTML / プレーンテキスト）"></textarea>
                 </div>
 
                 <!-- Model Answer (模範解答) Zone -->
@@ -248,11 +250,13 @@
                             <button class="clear-zone-btn icon-btn-small" title="クリア">🗑️</button>
                         </div>
                     </div>
-                    <input type="file" id="file-input-model" accept="image/*,application/pdf" multiple class="hidden">
+                    <input type="file" id="file-input-model" accept="image/*,application/pdf,text/plain,text/markdown,text/x-tex,text/html,.tex,.txt,.md,.markdown,.html,.htm" multiple class="hidden">
                     <div id="drop-zone-model" class="drop-area">
-                        <p>ファイルを選択または，<br>ここに模範解答をドロップ</p>
+                        <p>画像・PDF・ソースファイルを選択<br>または，ここに模範解答をドロップ</p>
                     </div>
                     <div id="thumbnails-model" class="thumbnail-container-mini hidden"></div>
+                    <textarea id="source-model" class="source-input" rows="5"
+                        placeholder="模範解答のソースを貼り付け（LaTeX / Markdown / HTML / プレーンテキスト）"></textarea>
                 </div>
 
                 <!-- Student Answer (生徒の解答) Zone -->
@@ -361,7 +365,7 @@
         <img id="img-preview-large" src="" alt="拡大プレビュー">
     </div>
 
-    <script src="app.js?v=2.3.3"></script>
+    <script src="app.js?v=2.4.0"></script>
 </body>
 
 </html>
