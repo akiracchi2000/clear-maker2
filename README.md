@@ -18,6 +18,11 @@ Clear Maker2は、Google Gemini Proモデルを活用して、生徒の答案画
 
 ## 更新履歴 (Changelog)
 
+### v2.4.3 (2026-08-19)
+*   **[変更] 利用モデルの更新**:
+    *   Gemini 3 Flash、Gemini 3.7 Flash、Gemini 3.1 Proから選択できるようにしました。
+    *   既定モデルをGemini 3 Flashに変更しました。
+
 ### v2.4.2 (2026-08-07)
 *   **[修正] 起動時に画面操作が停止する問題を修正**:
     *   埋め込みREADME内の記号がJavaScriptとして誤解釈される問題を修正しました。
